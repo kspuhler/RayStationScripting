@@ -1,0 +1,77 @@
+QWidget{
+        background-color:#56514E;
+        color:white;
+        }
+
+QTableWidget{
+            font-size:12pt;
+            }
+
+QLabel{
+            font-size:12pt;
+            }
+            
+            
+QHeaderView{
+           font-size:12pt;
+           background-color:#2E2E2E;
+           }
+
+QComboBox{
+         font-size:12pt;
+         }
+
+
+QCalendarWidget QToolButton{
+               font-size:30px;
+               icon-size:36px, 36px;
+               }
+
+QCalendarWidget QMenu{
+               background-color:#6977C4;
+               }
+
+QCalendarWidget QWidget{
+               background-color:#D0E7CF;
+               Color:black;
+               font-size:16px;
+               }
+QToolTip{
+    font-size:14px;
+    background-color:#FFFFB7;
+    }
+
+QDialog QCheckBox{
+    font-size:14px;
+    }
+
+QMessageBox{
+    font-size:14px;
+    }
+
+QMessageBox DetailedText{
+    font-size:14px;
+    }
+    
+QLineEdit{
+    font-size:14px;
+    background-color:#2E2E2E;
+}
+
+
+QPushButton{
+            qproperty-iconSize:28px;
+            font-size:14px;
+            font: bold;
+            height:30px;
+            border-radius: 14px;
+            background-color:#2E2E2E;
+            border-style:outset;
+            border-width: 1px;
+            border-color:darkorange;
+            
+           }
+           
+QPushButton[objectName^="dontdoIt"]{
+                                     background-color:white;
+                                    }
