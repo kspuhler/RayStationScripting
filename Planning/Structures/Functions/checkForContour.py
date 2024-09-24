@@ -4,8 +4,10 @@ Created on Wed May  8 12:05:13 2024
 
 @author: spuhlk01
 """
-
-from connect import *
+try:
+    from connect import *
+except:
+    pass
 import sys
 sys.path.append("\\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingPROD")
 sys.path.append("F:\SHARING\Radiation Oncology Physics\RaystationScriptingPROD")

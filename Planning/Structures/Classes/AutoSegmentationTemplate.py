@@ -16,33 +16,36 @@ from Planning.Structures.Templates.deepLearningSegmentationDictionaries import T
 class AutoSegmentationTemplate(ScriptObject):
     '''takes a dictionary of kv pairs '''
     DL_MODEL_NAMES = ['RSL DLS ' + x for x in ['Breast CT', 'Head and Neck CT', 'Male Pelvic CT', 'Thorax-Abdomen CT']]
-    def __init__(self, roisToContour, deepLearningModel, verboseExecution=False, runPreChecks=True):
+    def __init__(self, templateDictionary, verboseExecution=False, runPreChecks=True):
         
-        self.roisToContour = roisToContour
         
-        super().__init__(verboseExecution=verboseExecution, runPreChecks=runPreChecks)
-        
-        self.deepLearningModel = deepLearningModel
-        self.exam.RunDeepLearningSegmentationWithCustomRoiNames(ExaminationsAndRegistrations={self.exam.Name: None }, ModelAndRoiNames= self.assembleRoiDictForDeepLearningCall())
+        self.templateDictionary = templateDictionary
+        super().__init__(verboseExecution=verboseExecution, runPreChecks=runPreChecks)     
+        self.exam.RunDeepLearningSegmentationWithCustomRoiNames(ExaminationsAndRegistrations={self.exam.Name: None }, ModelAndRoiNames= self.templateDictionary)
         self.makeDerivedStructures()
         
-        if self.toCopy:
+        if self.toCopy: #workaround for preexisting structures, implemented in self.preChecks() but run copying occurs after new ROIs/geometries are made of course
             for ii in self.toCopy:
                 deleteRoi = ii[0]
                 keepRoi   = ii[1]
-                self.pm.RegionsOfInterest[keepRoi].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [deleteRoi], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                try:
+                    self.pm.RegionsOfInterest[keepRoi].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [deleteRoi], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                        ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                        ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
-                self.pm.RegionsOfInterest[deleteRoi].DeleteRoi()
-    
+                    self.pm.RegionsOfInterest[deleteRoi].DeleteRoi()
+                except:
+                    pass 
+                
     def preChecks(self):
-        if not self.deepLearningModel in self.DL_MODEL_NAMES:
-            raise Exception("You have provided an invalid deep learning model name!")
-            
-        #Handle pre-existing structures 
-        self.toCopy = [] #list of tuples (s (1), s) where we will copy s(1) to s then delete s(1)
         
-        for s in list(self.roisToContour.keys()):
+
+        #get list of rois we will contour from the dictionary
+       
+        self.roisToContour = [key for subdict in self.templateDictionary.values() for key in subdict.keys()]
+        
+        
+        self.toCopy = [] #list of tuples (s (1), s) where we will copy s(1) to s then delete s(1)
+        for s in self.roisToContour:
             if checkForContour(s):
                 if self.pm.StructureSets[self.exam.Name].RoiGeometries[s].HasContours():
                     pass #whatever we should do if it is already contoured on the scan
@@ -51,25 +54,16 @@ class AutoSegmentationTemplate(ScriptObject):
                     print(tup)
                     self.toCopy.append(tup)
                     
-                    
-        
-    
-    def assembleRoiDictForDeepLearningCall(self):
-        print(self.roisToContour)
-        dlDictionary = {self.deepLearningModel: self.roisToContour}
-        return dlDictionary
-    
     def makeDerivedStructures(self):
         pass
-        
+
     
 
 class TamHeadAndNeckTemplate(AutoSegmentationTemplate):
     
-    def __init__(self, roisToContour = TamHeadAndNeck, deepLearningModel = 'RSL DLS Head and Neck CT'):
-        self.roisToContour = roisToContour
-        self.deepLearningModel = deepLearningModel
-        super().__init__(roisToContour = roisToContour, deepLearningModel=deepLearningModel)
+    def __init__(self, templateDictionary = TamHeadAndNeck):
+
+        super().__init__(templateDictionary = templateDictionary)
         
     def makeDerivedStructures(self):
         if not checkForContour("Cord+5mm"):
@@ -89,10 +83,8 @@ class TamHeadAndNeckTemplate(AutoSegmentationTemplate):
         
 class TamAbdomenTemplate(AutoSegmentationTemplate):
     
-    def __init__(self, roisToContour = TamAbdomen, deepLearningModel = 'RSL DLS Thorax-Abdomen CT'):
-        self.roisToContour = roisToContour
-        self.deepLearningModel = deepLearningModel
-        super().__init__(roisToContour = roisToContour, deepLearningModel=deepLearningModel)
+    def __init__(self, templateDictionary = TamAbdomen):
+        super().__init__(templateDictionary = templateDictionary)
     
     def makeDerivedStructures(self):
         if not checkForContour("Cord+5mm"):
@@ -124,7 +116,7 @@ class TamAbdomenTemplate(AutoSegmentationTemplate):
                                                                                 ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
             except: 
                 print("Cannot create Lungs!")
-            lungs.UpdateDerivedGeometry(Examination=examination, Algorithm="Auto")
+            lungs.UpdateDerivedGeometry(Examination=self.exam, Algorithm="Auto")
             
         if not checkForContour("Kidneys"):
             kidneys = self.pm.CreateRoi(Name="Kidneys", Color="Fuchsia", Type="Organ", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
@@ -138,9 +130,9 @@ class TamAbdomenTemplate(AutoSegmentationTemplate):
                                                                                     ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
             except: 
                 print("Cannot create Kidneys!")
-            kidneys.UpdateDerivedGeometry(Examination=examination, Algorithm="Auto")
+            kidneys.UpdateDerivedGeometry(Examination=self.exam, Algorithm="Auto")
             
-        self.pm.UpdateDerivedGeometries(RoiNames=["Kidneys", "Lungs"], Examination=self.exam, Algorithm="Auto", AreEmptyDependenciesAllowed=False)
+        self.pm.UpdateDerivedGeometries(RoiNames=["Kidneys", "Lungs", "Cord+5mm"], Examination=self.exam, Algorithm="Auto", AreEmptyDependenciesAllowed=False)
             
 
         

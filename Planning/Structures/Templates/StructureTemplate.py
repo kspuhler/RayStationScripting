@@ -37,7 +37,6 @@ class StructureTemplate(object):
         self.roisInPatientModel = []
         for ii in self.pm.RegionsOfInterest:
             self.roisInPatientModel.append(ii.Name)
-        print('AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA')
         print(self.roisInPatientModel)
 
     def make_empty_rois(self): 
