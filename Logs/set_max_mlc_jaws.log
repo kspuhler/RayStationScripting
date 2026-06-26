@@ -1,0 +1,75 @@
+2025-11-10 13:01:18,430 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:01:18,496 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 9876122 || CaseName: Case 1
+2025-11-10 13:01:18,497 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:02:07,254 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:02:07,320 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 9876122 || CaseName: Case 1
+2025-11-10 13:02:07,321 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:11:47,758 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:11:47,824 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 9876122 || CaseName: Case 1
+2025-11-10 13:11:47,826 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:11:54,175 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Finished Set Max MLC and Jaws =====
+
+
+2025-11-10 13:18:38,947 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:18:39,014 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 9876122 || CaseName: Case 1
+2025-11-10 13:18:39,015 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:18:47,650 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Finished Set Max MLC and Jaws =====
+
+
+2025-11-10 13:26:29,999 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:26:30,064 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 9876122 || CaseName: Case 1
+2025-11-10 13:26:30,066 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:26:30,066 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - Initializating SetMaxBeamShape...
+2025-11-10 13:26:36,449 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - User setting parameters...
+2025-11-10 13:28:49,251 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:28:49,328 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 9876122 || CaseName: Case 1
+2025-11-10 13:28:49,330 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:28:49,330 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - Initializating SetMaxBeamShape...
+2025-11-10 13:28:54,922 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - User setting parameters...
+2025-11-10 13:29:20,559 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Finished Set Max MLC and Jaws =====
+
+
+2025-11-10 13:31:34,168 - INFO - set_max_mlc_jaws - rs_logging.py - Logger 'set_max_mlc_jaws' set to DEBUG
+2025-11-10 13:31:34,197 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:31:34,263 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 14288756 || CaseName: Case 1
+2025-11-10 13:31:34,265 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:31:34,265 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - Initializating SetMaxBeamShape...
+2025-11-10 13:31:41,040 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - User setting parameters...
+2025-11-10 13:31:55,653 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Finished Set Max MLC and Jaws =====
+
+
+2025-11-10 13:33:53,041 - INFO - set_max_mlc_jaws - rs_logging.py - Logger 'set_max_mlc_jaws' set to DEBUG
+2025-11-10 13:33:53,059 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Running Set Max MLC and Jaws =====
+2025-11-10 13:33:53,126 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Patient_ID: 14288756 || CaseName: Case 1
+2025-11-10 13:33:53,127 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 13:33:53,128 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - Initializating SetMaxBeamShape...
+2025-11-10 13:33:56,655 - INFO - set_max_mlc_jaws - main_set_max_mlc_jaws.py - User setting parameters...
+2025-11-10 13:34:10,129 - INFO - set_max_mlc_jaws - Set Max MLC and Jaws.py - 
+
+===== Finished Set Max MLC and Jaws =====
+
+

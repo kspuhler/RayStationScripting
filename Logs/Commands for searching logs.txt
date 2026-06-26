@@ -1,0 +1,17 @@
+Windows Power Shell Commands for searching logs
+
+TEXT = Sample_Text_To_Search
+TIME = Time_In_Months_Past_To_Search
+
+Select-String -Path "F:\SHARING\Radiation Oncology Physics\RaystationScriptingPROD\Logs\breast_sib.log" -SimpleMatch "TEXT" |
+  Measure-Object | Select-Object -ExpandProperty Count
+
+
+$folder = "F:\SHARING\Radiation Oncology Physics\RaystationScriptingPROD\Logs"
+$since  = (Get-Date).AddMonths(-TIME)
+
+Get-ChildItem -Path $folder -Filter *.log -File |
+  Where-Object { $_.LastWriteTime -ge $since } |
+  ForEach-Object { Select-String -Path $_.FullName -SimpleMatch "TEXT" } |
+  Measure-Object | Select-Object -ExpandProperty Count
+

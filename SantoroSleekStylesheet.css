@@ -75,3 +75,11 @@ QPushButton{
 QPushButton[objectName^="dontdoIt"]{
                                      background-color:white;
                                     }
+                                    
+QRadioButton{
+                  font-size:20px;
+}
+
+QCheckBox{
+                  font-size:20px;
+}

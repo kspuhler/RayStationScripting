@@ -1,5 +1,12 @@
 # -*- coding: utf-8 -*-
 """
+Created on Wed Jan 28 10:20:36 2026
+
+@author: spuhlk01
+"""
+
+# -*- coding: utf-8 -*-
+"""
 Created on Thu Feb  8 15:20:02 2024
 
 @author: spuhlk01
@@ -22,28 +29,49 @@ from Planning.Structures.Templates.StructureTemplate import StructureTemplate
 from Planning.Structures.Templates.roi_list_templates import prostNodes4500 as prostNodes4500
 from Planning.Structures.Templates.roi_list_templates import prostSBRT as prostSBRT
 
-class Pelvis(Isocenters):
-    
-    """"Makes a plan with N isocenters/beamSets. N can also equal 1"""
+#class PelvisTest(Isocenters):
+class Pelvis(Isocenters):   
     def __init__(self, numberOfIsocenters, planName, beamSetName):
         
         self.numberOfIsocenters = numberOfIsocenters
         
         super().__init__(numberOfIsocenters, planName, beamSetName)
-    
+        try:
+            self.case.BodySite = "Pelvis"
+        except:
+            pass
     
     def addStructures(self, case, examination):
         structures = StructureTemplate(prostNodes4500, self.case.PatientModel)
         structures.make_empty_rois()
-        self.exam.RunDeepLearningSegmentationWithCustomRoiNames(ExaminationsAndRegistrations={self.exam.Name: None }, ModelAndRoiNames= {'RSL DLS Male Pelvic CT': {'GTVp': 'Prostate',  'Bladder': 'Bladder', 
-                                                                                                                                                                     'GTVsv': 'SeminalVesicles', 'Rectum': 'Anorectum', 
-                                                                                                                                                                    'Lt Femoral': 'Femur_Head_L', 'Rt Femoral': 'Femur_Head_R'}})
-        
-        gtv = case.PatientModel.CreateRoi(Name="MDGTV", Color="Red", Type="Gtv", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
-        gtv.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["GTVp"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["GTVsv"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ResultOperation="Union", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
 
-    
         
+        self.exam.RunDeepLearningSegmentationWithCustomRoiNames(ExaminationsAndRegistrations={self.exam.Name: None }, ModelAndRoiNames= {'RSL DLS Male Pelvic CT': {'GTVp': 'Prostate',  'Bladder': 'Bladder', 
+                                                                                                                                                                    'GTVsv': 'SeminalVesicles', 'Rectum': 'Anorectum', 
+                                                                                                                                                                    'Lt Femoral': 'Femur_Head_L', 'Rt Femoral': 'Femur_Head_R'}})
+        try: #Contour fiducials
+            case.PatientModel.RegionsOfInterest['Fiducial'].GrayLevelThreshold(Examination=examination, LowThreshold=2000, HighThreshold=3071, PetUnit="", CbctUnit=None, BoundingBox=None)
+            case.PatientModel.RegionsOfInterest['Fiducial'].CreateAlgebraGeometry(Examination=examination, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["Fiducial"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["GTVp"], 'MarginSettings': { 'Type': "Expand", 'Superior': 1, 'Inferior': 1, 'Anterior': 1, 'Posterior': 1, 'Right': 1, 'Left': 1 } }, ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+        except:
+            pass
+        
+        if not "MDGTV" in [x.Name for x in self.case.PatientModel.RegionsOfInterest]:
+            gtv = case.PatientModel.CreateRoi(Name="MDGTV", Color="Red", Type="Gtv", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+            
+        gtv.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["GTVp"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                 ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["GTVsv"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                 ResultOperation="Union", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+        
+        if case.Physician.Name.lower() in ["jh", "haas", "jhaas"]:
+            db = get_current("PatientDB")
+            atlas = db.LoadTemplatePatientModel(templateName='ProstateNodes Haas Test')
+            case.PatientModel.CreateStructuresFromAtlas(SourceTemplate=atlas, SourceExaminationsNames=["17622598", "12802972", "13490725", "12572656", "8957315", "1143702", 
+                                                                                                                                                     "11912146", "16243828", "12541668", "10375426", "1473151", "12737576", 
+                                                                                                                                                     "12775370", "11152963", "15210295", "12652739", "11303202", "14065197", 
+                                                                                                                                                     "17496255", "2115637", "17548019", "12435874", "16333837", "9026878", 
+                                                                                                                                                     "9535844", "12391953", "16302939", "12511634"], 
+                                                        SourceRoiNames=["LtNode", "RtNode"], SourcePoiNames=[], AssociateStructuresByName=True, TargetExamination=examination, NrOfFusionAtlases=15)
+
 
                                                                                                                                                                   
     def addBeamsToBeamSet(self, beamNames = [], gantry = 0, collimator = 0):
@@ -58,11 +86,9 @@ class Pelvis(Isocenters):
 
 class ProstateCK(Isocenters):
     
-    """"Makes a plan with N isocenters/beamSets. N can also equal 1"""
     def __init__(self, numberOfIsocenters, planName, beamSetName):
         
         self.numberOfIsocenters = numberOfIsocenters
-        
         super().__init__(numberOfIsocenters, planName, beamSetName)
     
     
@@ -70,10 +96,13 @@ class ProstateCK(Isocenters):
         structures = StructureTemplate(prostSBRT, self.case.PatientModel)
         structures.make_empty_rois()
         self.exam.RunDeepLearningSegmentationWithCustomRoiNames(ExaminationsAndRegistrations={self.exam.Name: None }, ModelAndRoiNames= {'RSL DLS Male Pelvic CT': {'GTVp': 'Prostate',  'Bladder': 'Bladder', 
-                                                                                                                                                                     'GTVsv': 'SeminalVesicles', 'Rectum': 'Anorectum'}})
+                                                                                                                                                                     'GTVsv': 'SeminalVesicles', 'Lt Femoral': 'Femur_Head_L', 
+                                                                                                                                                                     'Rt Femoral': 'Femur_Head_R','Rectum': 'Anorectum'}})
         try:
-            gtv = case.PatientModel.CreateRoi(Name="GTV_CK", Color="Red", Type="Gtv", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
-            gtv.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["GTVp"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["GTVsv_CK"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ResultOperation="Union", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+            gtv = case.PatientModel.CreateRoi(Name="MDGTV", Color="Red", Type="Gtv", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+            gtv.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["GTVp"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                     ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["GTVsv"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                     ResultOperation="Union", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         except:
             pass
     
@@ -91,6 +120,6 @@ class ProstateCK(Isocenters):
                         
         
 if __name__ == "__main__":
-    tmp = ProstateCK(1, "Haastestjhv", "Haastestjhv")
+    tmp = PelvisTest(1,'test','test')
     
     

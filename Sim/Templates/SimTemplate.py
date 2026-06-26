@@ -27,6 +27,7 @@ class SimTemplate(object):
         
         self.case        = get_current("Case")
         self.exam        = get_current("Examination")
+        self.pm = self.case.PatientModel
         
         self.planName    = planName
         self.beamSetName = beamSetName

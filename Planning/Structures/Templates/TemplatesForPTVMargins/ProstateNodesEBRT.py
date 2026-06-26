@@ -1,5 +1,5 @@
 
-ProstateNodesTemplates = {
+ProstateNodesTemplates =   {
         
         'Carpenter': {
             'ProstateMargin': {'Superior': 0.5, 'Inferior': 0.5, 'Anterior': 0.7, 'Posterior': 0.3, 'Right': 0.5, 'Left': 0.5},

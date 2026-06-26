@@ -14,7 +14,10 @@ from Planning.Structures.Functions.checkForContour import checkForContour
 from Planning.Structures.Templates.deepLearningSegmentationDictionaries import TamHeadAndNeck, TamAbdomen
 
 class AutoSegmentationTemplate(ScriptObject):
-    '''takes a dictionary of kv pairs '''
+    '''takes a dictionary of kv pairs 
+    key = model name; val = roi names in format {'what you want to call it': 'what RS calls it'}
+    '''
+
     DL_MODEL_NAMES = ['RSL DLS ' + x for x in ['Breast CT', 'Head and Neck CT', 'Male Pelvic CT', 'Thorax-Abdomen CT']]
     def __init__(self, templateDictionary, verboseExecution=False, runPreChecks=True):
         

@@ -15,6 +15,8 @@ class MachineParserBase(object):
     
     
     def __init__(self, dicom):
+        self.dicom = dicom
+
         self.beams = []
         
         
@@ -66,7 +68,6 @@ class VarianParser(MachineParserBase):
     
     def __init__(self, dicom):
         super().__init__(dicom)
-        self.dicom = dicom
         self.getDoseInfo()
 
 
@@ -216,7 +217,7 @@ class RadixactParser(MachineParserBase):
         return retVal
     
     
-class CyberKnifeParser(MachineParserBase):
+class CyberKnifeRadParser(MachineParserBase):
     
     NUM_MLC = 52
     
@@ -227,12 +228,54 @@ class CyberKnifeParser(MachineParserBase):
     def getBeamSequence(self, dicom):
         self.beamSequence = dicom.RoboticPathControlPointSequence
     
+    
     def processBeamSequence(self):
         self.beams = []
         self.beams.append(CyberKnifeBeam(self.beamSequence))
         
     def __eq__(self, other):
-        if not super().__eq__(other):
-            return False
+
         return self.beams == other.beams
+    
+class CyberKnifePlanParser(MachineParserBase):
+     
+    
+    def __init__(self,dicom):
+        self.dicom = dicom
+        self.getPatientDemographics(dicom)
+        self.getTrackingInformation(dicom)
+        
+        
+    def getTrackingInformation(self, dicom):
+        tmp = dicom.PatientSetupSequence[0]
+        tmp = tmp[0x300a, 0x0410][0] #motion synchronization sequence
+        try:
+            self.tracking = {'Algorithm': tmp[0x0018, 0x9170].value,
+                             'Signal': tmp[0x0018, 0x9171].value,
+                             'Target': [x[0x3006, 0x0033].value for x in tmp[0x3006, 0x0030].value]
+                             }
+        except:
+            try: #is it spine tracking
+                tmp[0x0048, 0x0001].value
+                self.tracking = {'Algorithm': tmp[0x0018, 0x9170].value,
+                                 'Signal': tmp[0x0018, 0x9171].value,
+                                 'Imaged Width': tmp[0x0048, 0x0001].value}
+            except:
+                raise("Cannot process tracking information")
+        print(self.tracking)
+        
+        
+    def __eq__(self, other):
+        
+        print('Beginning check for patient ' + str(self.Patient) + ' MRN: ' + str(self.PID))
+        print('Plan ID: ' + str(self.dicom.RTPlanLabel))
+        retVal = True
+        
+        if self.tracking == other.tracking:
+            print('-Checking Tracking Parameters: SUCCESS')
+        else:
+            print('-Checking Tracking Parameters: FAILED')
+            retval = False
+            
+    
     

@@ -6,7 +6,6 @@ Created on Wed Mar 27 13:09:41 2024
 
 this script will identify the correct rv export (Aria/Precision) and push accordingly
 
-it will also push integrity and second calc checks
 """
 
 
@@ -22,11 +21,11 @@ except ModuleNotFoundError:
     pass
 
 from DicomExport.DicomExportBase import DicomExportBase
-from DicomExport.SecondCalcExport import SecondCalcExport
+#from DicomExport.SecondCalcExport import SecondCalcExport
+from DicomExport.ClearCalcExport import ClearCalcExport
 from DicomExport.IntegrityExport import IntegrityExport
-from DicomExport.AriaExport import AriaExport
+from DicomExport.TPSExport import TPSExport
 
-from RSutil.variables import RS_UTIL_ARIA_CONNECTION
  
 
 
@@ -38,7 +37,7 @@ fPathBase   = '\\\Varimgwcdcpvm01\va_data$\Raystation'
 
         
 if __name__ == "__main__":
-    IntegrityExport()
-    SecondCalcExport()
-    AriaExport()
+    #IntegrityExport()
+    #ClearCalcExport()
+    TPSExport()
     

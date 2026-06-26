@@ -25,3 +25,9 @@ class GenericPopup(tk.Tk):
     def showPopup(self):
         self.mainloop()
 
+
+
+if __name__ == "__main__":
+    a = GenericPopup()
+    a.attributes('-topmost', True)
+    a.showPopup()

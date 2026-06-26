@@ -26,14 +26,18 @@ class Breast(SimTemplate):
         #TODO electron functionality for five fields
         
         super().__init__(planName, beamSetName)
+        try:
+            self.case.BodySite = "Breast"
+        except:
+            pass
         
         pois = [x.Name for x in self.case.PatientModel.PointsOfInterest]
         
-        if not "Marker 1" in pois:
-            self.case.PatientModel.CreatePoi(Examination=self.exam, Point={ 'x': 0, 'y': 0, 'z': 0 }, Name="Marker 1", Color="Yellow", VisualizationDiameter=1, Type="Marker")
+        # if not "Marker 1" in pois:
+        #     self.case.PatientModel.CreatePoi(Examination=self.exam, Point={ 'x': 0, 'y': 0, 'z': 0 }, Name="Marker 1", Color="Yellow", VisualizationDiameter=1, Type="Marker")
         
-        if not "Marker 2" in pois:
-            self.case.PatientModel.CreatePoi(Examination=self.exam, Point={ 'x': 0, 'y': 0, 'z': 0 }, Name="Marker 2", Color="Yellow", VisualizationDiameter=1, Type="Marker")
+        # if not "Marker 2" in pois:
+        #     self.case.PatientModel.CreatePoi(Examination=self.exam, Point={ 'x': 0, 'y': 0, 'z': 0 }, Name="Marker 2", Color="Yellow", VisualizationDiameter=1, Type="Marker")
         
         self.fieldNum = fieldNum
         self.laterality = laterality

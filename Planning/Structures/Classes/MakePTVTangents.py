@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Fri Mar 21 15:54:15 2025
+
+@author: spuhlk01
+"""
+
 
 
 from connect import *
@@ -16,9 +23,9 @@ from FrontEnd.DropdownMenuWindow import DropdownMenuWindow
 
 class MakePTVTangents(MakePTV):
     '''
-    This script will make PTV Tangents, and if appropriate, PTV TB Eval (if there is a contour named Tumor Bed or similar).
+    This script will make PTV Tangent DEBUGs, and if appropriate, PTV TB Eval (if there is a contour named Tumor Bed or similar).
     
-    PTV tangents will be the result of cropping the 50% IDL into the External contour, reducing 6mm, and cropping out of Lung/Liver/Heart.
+    PTV Tangent  will be the result of cropping the 50% IDL into the External contour, reducing 6mm, and cropping out of Lung/Liver/Heart.
     
     To run:
         
@@ -31,8 +38,11 @@ class MakePTVTangents(MakePTV):
     
     TUMOR_STRINGS = ['tumor_bed', 'tumorbed', 'tumor bed'] #list of potential structures indiciating the need for TB EVAL
 
-    def __init__(self, RoiName = 'PTV Tangents',  Idl = None):
-            
+    def __init__(self, TangentsName = 'PTV Tangents', TumorBedName = 'PTV TB Eval',  Idl = None):
+        
+        self.TangentsName = TangentsName
+        self.TumorBedName = TumorBedName
+        
         super().__init__()
         
         
@@ -49,33 +59,41 @@ class MakePTVTangents(MakePTV):
                 self.idl = self.bs.Prescription.PrescriptionDoseReferences[0].DoseValue #rx dose to make idl contours off of
             except:
                 self.idl=100.0
-
+        #Get name of external contour so DIBHs aren't screwed up in cropping
+        self.externalName = None
+        for r in self.pm.RegionsOfInterest:
+            if r.Type == "External":
+                if not self.externalName:
+                    self.externalName = r.Name
+                else:
+                    raise Exception("MULTIPLE EXTERNAL ROIS FOUND")
         super().preChecks()
         self.hasNormPoint()
         self.checkForDoseCalc()
         
     def makePtv(self):
 
-        if not checkForContour('ptv tangents'):
-            self.pm.CreateRoi(Name="PTV Tangents", Color="Red", Type="ptv", TissueName="", RbeCellTypeName=None, RoiMaterial=None)
+        if not checkForContour(self.TangentsName):
+            self.pm.CreateRoi(Name=self.TangentsName, Color="Red", Type="ptv", TissueName="", RbeCellTypeName=None, RoiMaterial=None)
         
-        ptvTanGeometry = self.pm.StructureSets[self.exam.Name].RoiGeometries['PTV Tangents'].OfRoi
+        ptvTanGeometry = self.pm.StructureSets[self.exam.Name].RoiGeometries[self.TangentsName].OfRoi
         ptvTanGeometry.CreateRoiGeometryFromDose(DoseDistribution=self.dose, ThresholdLevel=self.idl/2.0)
+        
         crop = [x.Name for x in self.pm.RegionsOfInterest if any(y in x.Name.lower() for y in ['lung', 'heart', 'liver'])]
 
         #Crop into External
-        self.pm.RegionsOfInterest['PTV Tangents'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV Tangents"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
-                                                                        ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["External"], 'MarginSettings': { 'Type': "Contract", 'Superior': 0, 'Inferior': 0.0, 'Anterior': 0.0, 'Posterior': 0.0, 'Right': 0.0, 'Left': 0.0 } }, 
+        self.pm.RegionsOfInterest[self.TangentsName].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [self.TangentsName], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                                                        ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [self.externalName], 'MarginSettings': { 'Type': "Contract", 'Superior': 0, 'Inferior': 0.0, 'Anterior': 0.0, 'Posterior': 0.0, 'Right': 0.0, 'Left': 0.0 } }, 
                                                                         ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
 
         #Crop 0.6cm 
-        self.pm.RegionsOfInterest['PTV Tangents'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV Tangents"], 'MarginSettings': { 'Type': "Contract", 'Superior': 0.6, 'Inferior': 0.6, 'Anterior': 0.6, 'Posterior': 0.6, 'Right': 0.6, 'Left': 0.6} },
+        self.pm.RegionsOfInterest[self.TangentsName].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [self.TangentsName], 'MarginSettings': { 'Type': "Contract", 'Superior': 0.6, 'Inferior': 0.6, 'Anterior': 0.6, 'Posterior': 0.6, 'Right': 0.6, 'Left': 0.6} },
                                                                         ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ResultOperation="None", 
                                                                         ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
 
         
         #Crop out lungs/liver/heart
-        self.pm.RegionsOfInterest['PTV Tangents'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV Tangents"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+        self.pm.RegionsOfInterest[self.TangentsName].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [self.TangentsName], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                         ExpressionB={ 'Operation': "Union", 'SourceRoiNames': crop, 'MarginSettings': { 'Type': "Expand", 'Superior': 0.2, 'Inferior': 0.2, 'Anterior': 0.2, 'Posterior': 0.2, 'Right': 0.2, 'Left': 0.2 } }, ResultOperation="Subtraction", 
                                                                         ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
 
@@ -88,17 +106,20 @@ class MakePTVTangents(MakePTV):
 
         if tb is not None:
             # Match found and stored in `match`
-            self.pm.CreateRoi(Name="PTV_TB_Eval", Color="Pink", Type="ptv", TissueName="", RbeCellTypeName=None, RoiMaterial=None)
-            self.pm.RegionsOfInterest['PTV_TB_Eval'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [tb], 'MarginSettings': { 'Type': "Expand", 'Superior': 1.0, 'Inferior': 1.0, 'Anterior': 1.0, 'Posterior': 1.0, 'Right': 1.0, 'Left': 1.0 } },
-                                                                            ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ResultOperation="None", 
-                                                                            ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+            self.pm.CreateRoi(Name=self.TumorBedName, Color="Pink", Type="ptv", TissueName="", RbeCellTypeName=None, RoiMaterial=None)
             
-            self.pm.RegionsOfInterest['PTV_TB_Eval'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV_TB_Eval2"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
-                                                                            ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["External"], 'MarginSettings': { 'Type': "Contract", 'Superior': 0.5, 'Inferior': 0.5, 'Anterior': 0.5, 'Posterior': 0.5, 'Right': 0.5, 'Left': 0.5 } }, 
+            #Expand around tumor and crop into tangents
+            self.pm.RegionsOfInterest[self.TumorBedName].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [tb], 'MarginSettings': { 'Type': "Expand", 'Superior': 1.0, 'Inferior': 1.0, 'Anterior': 1.0, 'Posterior': 1.0, 'Right': 1.0, 'Left': 1.0 } },
+                                                                            ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [self.TangentsName], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                             ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
-            self.pm.RegionsOfInterest['PTV_TB_Eval'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV_TB_Eval2"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
-                                                                            ExpressionB={ 'Operation': "Union", 'SourceRoiNames': crop, 'MarginSettings': { 'Type': "Expand", 'Superior': 0.2, 'Inferior': 0.2, 'Anterior': 0.2, 'Posterior': 0.2, 'Right': 0.2, 'Left': 0.2 } }, ResultOperation="Subtraction", 
-                                                                            ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+            #Crop into External Contour
+            self.pm.RegionsOfInterest[self.TumorBedName].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [self.TumorBedName], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                                                            ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [self.externalName], 'MarginSettings': { 'Type': "Contract", 'Superior': 0.5, 'Inferior': 0.5, 'Anterior': 0.5, 'Posterior': 0.5, 'Right': 0.5, 'Left': 0.5 } }, 
+                                                                            ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+            #Crop from lungs/liver/heart
+            self.pm.RegionsOfInterest[self.TumorBedName].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [self.TumorBedName], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                                                            ExpressionB={ 'Operation': "Union", 'SourceRoiNames': crop, 'MarginSettings': { 'Type': "Expand", 'Superior': 0.2, 'Inferior': 0.2, 'Anterior': 0.2, 'Posterior': 0.2, 'Right': 0.2, 'Left': 0.2 } }, 
+                                                                            ResultOperation="Subtraction", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
             
 
         
@@ -114,7 +135,7 @@ class MakePTVTangents(MakePTV):
 
     def checkForDoseCalc(self):
         
-        if self.plan.TreatmentCourse.TotalDose.GetDoseStatistic(RoiName="External", DoseType="Max") > 0:
+        if self.plan.TreatmentCourse.TotalDose.GetDoseStatistic(RoiName=self.externalName, DoseType="Max") > 0:
             return 
         else:
 
@@ -126,8 +147,8 @@ class MakePTVTangents(MakePTV):
         self.dose = self.plan.TreatmentCourse.TotalDose
         
     def __repr__(self):
-        return  '''This script makes PTV Tangents by calculating plan to give rx dose to norm point and then taking 50%idl and cropping it from anything with "lung" "heart" or "liver" in the name \n
+        return  '''This script makes PTV Tangent  by calculating plan to give rx dose to norm point and then taking 50%idl and cropping it from anything with "lung" "heart" or "liver" in the name \n
                 will also make ptv tb eval if there is a structure matching anything in self.TUMOR_STRINGS'''
                 
 if __name__ == '__main__':
-    tmp = MakePTVTangents()
+    tmp = MakePTVTangents(TangentsName="TanTest", TumorBedName="TBEvalTest")

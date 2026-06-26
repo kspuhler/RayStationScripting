@@ -1,0 +1,2 @@
+- Review planning quality results from Milosevich, Belmira (10250096)
+- Merge beams or make more feasible jaw and MLC settings so merging doesn't fail as often.

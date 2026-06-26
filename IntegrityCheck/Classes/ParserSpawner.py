@@ -2,7 +2,8 @@ import pydicom as pdm
 import numpy as np
 
 
-from Machines import *
+from Machines import VarianParser, CyberKnifePlanParser, CyberKnifeRadParser, RadixactParser
+
 
 class ParserSpawner(object):
     #Base class for organizing information in dicom files, handles machines differences and stuff
@@ -38,15 +39,18 @@ class ParserSpawner(object):
         elif txMachine in self.MACHINE_DICT['RADIXACT']:
             return RadixactParser(self.dicom)
         elif txMachine in self.MACHINE_DICT['CK_MLC']:
-            return CyberKnifeParser(self.dicom)
+            if self.dicom.Modality == "RTRAD":
+                return CyberKnifeRadParser(self.dicom)
+            elif self.dicom.Modality == "RTPLAN":
+                return CyberKnifePlanParser(self.dicom)
         else:
             raise Exception(f"PARSER: {txMachine} is not a recognized machine id")
                 
         
  
 # =============================================================================
-# if __name__ == '__main__':
-#     fpath = 'F:\\SHARING\\Radiation Oncology Physics\\Physics Staff\\KS\\RaystationTesting\\Integrity Check\\Test\\'
+if __name__ == '__main__':
+     fpath = 'F:\\SHARING\\Radiation Oncology Physics\\Physics Staff\\KS\\RaystationTesting\\Integrity Check\\Test\\'
 #     
 #     try:
 #         rs   = ParserSpawner(fpath+'3D\\RayStation.dcm')
@@ -64,13 +68,13 @@ class ParserSpawner(object):
 #     except:
 #         print("3D Aria Fail")
 #         
-#     try:
-#         ck   = ParserSpawner(fpath+'CKPlan\\RTRAD1.2.752.243.1.1.20231226134825205.4900.15706.dcm')
-#         ckk  = ck.spawnParser(ck.txMachine)
-#         print("CK Build Success!")
-#         
-#     except:
-#         print('CK Fail')
+     try:
+        ck   = ParserSpawner(fpath+'CKPlan\\RTRAD1.2.752.243.1.1.20231226134825205.4900.15706.dcm')
+        ckk  = ck.spawnParser(ck.txMachine)
+        print("CK Build Success!")
+        
+     except:
+        print('CK Fail')
 #         
 #     try:
 #         radi = ParserSpawner(fpath+'Radixact\\Thymoma4500_Plan.7080438177968')

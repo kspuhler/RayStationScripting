@@ -1,0 +1,419 @@
+2025-10-10 14:14:14,896 - DEBUG - debug - ui_eqd2.py - Inside _get_user_selections doses {} try...
+2025-10-10 14:14:18,360 - DEBUG - debug - rs_errors.py - Exiting script through report_errors: ActionOutcome(action=<RecommendedAction.ABORT_SCRIPT: 'abort_script'>, user_choice='abort', did_skip=False, retry_attempted=False, retry_result=None, should_abort=True, exit_code=1, did_save=False)
+2025-10-10 14:16:49,357 - DEBUG - debug - rs_errors.py - Exiting script through report_errors: ActionOutcome(action=<RecommendedAction.ABORT_SCRIPT: 'abort_script'>, user_choice='abort', did_skip=False, retry_attempted=False, retry_result=None, should_abort=True, exit_code=1, did_save=False)
+2025-10-10 14:25:34,988 - DEBUG - debug - rs_errors.py - Exiting script through report_errors: ActionOutcome(action=<RecommendedAction.ABORT_SCRIPT: 'abort_script'>, user_choice='abort', did_skip=False, retry_attempted=False, retry_result=None, should_abort=True, exit_code=1, did_save=False)
+2025-10-10 14:33:59,174 - DEBUG - debug - rs_errors.py - Exiting script through report_errors: ActionOutcome(action=<RecommendedAction.ABORT_SCRIPT: 'abort_script'>, user_choice='abort', did_skip=False, retry_attempted=False, retry_result=None, should_abort=True, exit_code=1, did_save=False)
+2025-10-10 14:47:47,801 - DEBUG - debug - rs_errors.py - Exiting script through report_errors: ActionOutcome(action=<RecommendedAction.ABORT_SCRIPT: 'abort_script'>, user_choice='abort', did_skip=False, retry_attempted=False, retry_result=None, should_abort=True, exit_code=1, did_save=False)
+2025-10-10 14:54:04,668 - DEBUG - debug - rs_errors.py - Exiting script through report_errors: ActionOutcome(action=<RecommendedAction.ABORT_SCRIPT: 'abort_script'>, user_choice='abort', did_skip=False, retry_attempted=False, retry_result=None, should_abort=True, exit_code=1, did_save=False)
+2025-10-20 14:48:00,270 - INFO - debug - ui_eqd2.py - Running ui_eqd2.py...
+2026-06-02 10:50:01,092 - INFO - debug - ck_prostate_plan_setup.py - Plan Keys: [<ScriptObject id=-2127822928, 'SIM05-18-26'>, <ScriptObject id=-2127315186, 'DELETE'>, <ScriptObject id=dc487945-f988-4f29-8fa8-374cd837a574, 'Prostate3625'>]
+2026-06-08 09:35:02,983 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 09:35:02,983 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 09:35:02,983 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 09:35:02,983 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 09:35:02,984 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 09:35:02,984 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 09:35:02,984 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 09:35:02,984 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 09:35:03,139 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 09:35:07,781 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 09:35:08,514 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 09:35:09,217 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 09:35:10,318 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 09:35:15,270 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 09:35:15,400 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 09:35:15,519 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 09:39:28,034 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 09:39:28,035 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 09:39:28,035 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 09:39:28,035 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 09:39:28,035 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 09:39:28,035 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 09:39:28,036 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 09:39:28,036 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 09:39:32,318 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 09:39:33,083 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 09:39:33,812 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 09:39:34,931 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 09:40:04,261 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 09:40:04,261 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 09:40:04,261 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 09:40:04,262 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 09:40:04,262 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 09:40:04,262 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 09:40:04,262 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 09:40:04,262 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 09:40:04,357 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 09:40:04,512 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for 'PTV3625': The ROI must have an expression defined.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 09:40:08,472 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 09:40:09,211 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 09:40:09,940 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 09:40:11,041 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 09:40:12,092 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 09:40:12,220 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 09:40:12,344 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 09:52:58,948 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 09:52:58,948 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 09:52:58,948 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 09:52:58,948 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 09:52:58,948 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 09:52:58,948 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 09:52:58,949 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 09:52:58,949 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 09:52:59,055 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 09:52:59,091 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for 'PTV3625': No ROI with name 'GTV' could be found
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 09:52:59,838 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 09:53:00,283 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 09:53:00,534 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 09:53:01,433 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 09:53:01,937 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 09:53:02,054 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 09:53:02,172 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 09:57:45,838 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 09:57:45,838 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 09:57:45,838 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 09:57:45,839 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 09:57:45,839 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 09:57:45,839 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 09:57:45,839 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 09:57:45,839 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 09:57:45,975 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 09:57:46,082 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for 'PTV3625': No ROI with name 'GTV' could be found
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 340, in _apply_pipeline
+    pm.RegionsOfInterest["PTV3625"].SetAlgebraExpression(
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: No ROI with name 'GTV' could be found
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 09:57:46,102 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 09:59:14,485 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 09:59:14,485 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 09:59:14,485 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 09:59:14,485 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 09:59:14,485 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 09:59:14,486 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 09:59:14,486 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 09:59:14,486 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 09:59:14,571 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 09:59:14,649 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for 'PTV3625': No ROI with name 'GTV' could be found
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 340, in _apply_pipeline
+    pm.RegionsOfInterest["PTV3625"].SetAlgebraExpression(
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: No ROI with name 'GTV' could be found
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 09:59:14,670 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:00:58,477 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:00:58,477 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:00:58,477 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> rect
+2026-06-08 10:00:58,478 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:00:58,478 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:00:58,478 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:00:58,478 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:00:58,478 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:00:58,516 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for 'Rectum': No ROI with name 'PTV3625' could be found
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 366, in _apply_pipeline
+    pm.RegionsOfInterest[name("Rectum")].CreateAlgebraGeometry(Examination=examination, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': [name("Rectum")], 'MarginSettings': ZERO_MARGIN }, ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["PTV3625"], 'MarginSettings': { 'Type': "Expand", 'Superior': 1, 'Inferior': 1, 'Anterior': 15, 'Posterior': 15, 'Right': 15, 'Left': 15 } }, ResultOperation="Intersection", ResultMarginSettings=ZERO_MARGIN)
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: No ROI with name 'PTV3625' could be found
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 10:00:58,537 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:02:12,814 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:02:12,815 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:02:12,815 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> rect
+2026-06-08 10:02:12,815 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> blad
+2026-06-08 10:02:12,815 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:02:12,815 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:02:12,815 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:02:12,815 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:02:13,201 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:03:54,508 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:03:54,508 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:03:54,508 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> rect
+2026-06-08 10:03:54,508 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> blad
+2026-06-08 10:03:54,508 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:03:54,509 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:03:54,509 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:03:54,509 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:03:54,626 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:03:55,330 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:05:59,161 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:05:59,161 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:05:59,162 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:05:59,162 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:05:59,162 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:05:59,162 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:05:59,162 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:05:59,162 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:05:59,253 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:05:59,556 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 10:06:00,181 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:07:03,971 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:07:03,971 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:07:03,972 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:07:03,972 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:07:03,972 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:07:03,972 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:07:03,972 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:07:03,972 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:07:04,077 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:07:08,367 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 10:07:09,160 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 10:07:09,882 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 10:07:11,053 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 10:07:16,204 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 10:07:16,335 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 10:07:16,474 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:13:02,596 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:13:02,684 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:13:02,684 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:13:02,684 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:13:02,684 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:13:02,684 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:13:02,685 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:13:02,685 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:13:02,685 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:13:02,879 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:14:55,883 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:14:55,979 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:14:55,979 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:14:55,979 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:14:55,979 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:14:55,979 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:14:55,979 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:14:55,980 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:14:55,980 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:14:59,898 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:16:33,225 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:16:33,225 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:16:33,226 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:16:33,226 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:16:33,226 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:16:33,226 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:16:33,226 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:16:33,226 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:16:37,247 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for Ring structures: There already exists an ROI or POI with this name.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 479, in _apply_pipeline
+    retval_3 = case.PatientModel.CreateRoi(Name="Ring40mm", Color="Green", Type="Control", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: There already exists an ROI or POI with this name.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 10:16:37,278 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:17:37,246 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:17:37,342 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:17:37,342 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:17:37,342 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:17:37,342 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:17:37,342 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:17:37,342 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:17:37,342 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:17:37,343 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:17:48,609 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:18:35,526 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:18:35,618 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:18:35,619 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:18:35,619 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:18:35,619 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:18:35,619 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:18:35,619 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:18:35,619 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:18:35,619 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:18:39,995 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 10:18:40,893 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 10:18:41,646 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 10:18:42,866 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 10:18:43,670 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 10:18:54,758 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 10:18:54,775 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for Urethra + margin structure: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 494, in _apply_pipeline
+    pm.RegionsOfInterest[urethra_opt_name].CreateAlgebraGeometry(
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 10:18:54,843 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:56:16,965 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:56:17,117 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:56:17,118 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:56:17,118 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:56:17,118 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:56:17,118 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:56:17,118 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:56:17,118 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:56:17,119 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:56:17,186 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 10:56:17,263 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for Urethra + margin structure: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 494, in _apply_pipeline
+    pm.RegionsOfInterest[urethra_opt_name].CreateAlgebraGeometry(
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 10:56:17,282 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 10:57:08,570 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 10:57:08,657 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 10:57:08,657 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 10:57:08,657 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 10:57:08,657 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 10:57:08,657 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 10:57:08,657 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 10:57:08,658 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 10:57:08,658 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 10:57:13,430 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 10:57:14,223 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 10:57:15,103 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 10:57:16,222 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 10:57:21,254 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 10:57:32,543 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 10:57:32,566 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for Urethra + margin structure: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 493, in _apply_pipeline
+    pm.RegionsOfInterest[urethra_opt_name].CreateAlgebraGeometry(
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 10:57:32,656 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 11:00:06,979 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 11:00:07,063 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 11:00:07,063 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 11:00:07,063 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 11:00:07,063 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 11:00:07,063 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 11:00:07,063 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 11:00:07,064 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 11:00:07,064 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 11:00:07,161 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 11:00:07,196 - ERROR - debug - ck_prostate_finalize_contours.py - ⚠️ Algebra failed for Urethra + margin structure: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+Traceback (most recent call last):
+  File "\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingDEVEL\OC_Testing_Scripts\ck_prostate_finalize_contours.py", line 493, in _apply_pipeline
+    pm.RegionsOfInterest[urethra_opt_name].CreateAlgebraGeometry(
+  File "C:\Program Files\RaySearch Laboratories\RayStation 2023B\ScriptClient\connect\connect_cpython.py", line 631, in __call__
+    return pyobjify(self._scriptMethod.Invoke(keys, vals))
+System.InvalidOperationException: Could not set argument 'ExpressionA'.
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-06-08 11:00:07,224 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 11:02:26,901 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 11:02:26,901 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 11:02:26,902 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 11:02:26,902 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 11:02:26,902 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 11:02:26,902 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 11:02:26,902 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 11:02:26,902 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 11:02:26,992 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 11:02:27,180 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 11:03:00,428 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 11:03:00,513 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 11:03:00,513 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 11:03:00,514 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 11:03:00,514 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 11:03:00,514 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 11:03:00,514 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 11:03:00,514 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 11:03:00,514 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 11:03:04,808 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 11:03:05,614 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 11:03:06,336 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 11:03:07,620 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 11:03:08,814 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 11:03:19,919 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 11:03:20,098 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 12:43:29,822 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 12:43:29,935 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 12:43:29,936 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 12:43:29,936 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 12:43:29,936 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 12:43:29,936 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 12:43:29,936 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 12:43:29,936 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 12:43:29,937 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-08 12:43:34,972 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-08 12:43:35,860 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-08 12:43:36,676 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-08 12:43:38,085 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-08 12:43:40,450 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-08 12:44:12,364 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-08 12:44:12,574 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-08 12:45:40,051 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-08 12:45:40,148 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-08 12:45:40,148 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-08 12:45:40,148 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-08 12:45:40,148 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-08 12:45:40,148 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-08 12:45:40,148 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-08 12:45:40,148 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-08 12:45:40,149 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-09 08:04:27,287 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-09 08:04:27,378 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-09 08:04:27,379 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-09 08:04:27,379 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-09 08:04:27,379 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-09 08:04:27,379 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-09 08:04:27,379 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-09 08:04:27,379 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-09 08:04:27,379 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-09 08:04:31,782 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-09 08:04:32,676 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-09 08:04:33,359 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-09 08:04:33,987 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-09 08:04:41,835 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-09 08:05:16,410 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-09 08:05:16,597 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.
+2026-06-09 16:04:36,824 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: PTV3625
+2026-06-09 16:04:36,909 - INFO - debug - ck_prostate_finalize_contours.py - Resolved ROI map:
+2026-06-09 16:04:36,910 - INFO - debug - ck_prostate_finalize_contours.py -   GTV          -> MDGTV
+2026-06-09 16:04:36,910 - INFO - debug - ck_prostate_finalize_contours.py -   Rectum       -> Rectum
+2026-06-09 16:04:36,910 - INFO - debug - ck_prostate_finalize_contours.py -   Bladder      -> Bladder
+2026-06-09 16:04:36,910 - INFO - debug - ck_prostate_finalize_contours.py -   Spacer       -> Spacer
+2026-06-09 16:04:36,910 - INFO - debug - ck_prostate_finalize_contours.py -   Large Bowel  -> Large Bowel
+2026-06-09 16:04:36,910 - INFO - debug - ck_prostate_finalize_contours.py -   Small Bowel  -> Small Bowel
+2026-06-09 16:04:36,910 - INFO - debug - ck_prostate_finalize_contours.py -   Urethra      -> urethra
+2026-06-09 16:04:45,507 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Blad Opt
+2026-06-09 16:04:46,929 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Rec Opt
+2026-06-09 16:04:47,858 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: LB Opt
+2026-06-09 16:04:49,302 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: SB Opt
+2026-06-09 16:04:57,239 - INFO - debug - ck_prostate_finalize_contours.py - Imported couch ROI(s) from template.
+2026-06-09 16:05:45,702 - INFO - debug - ck_prostate_finalize_contours.py - Created ROI: Urethra+0.1cm
+2026-06-09 16:05:45,895 - INFO - debug - ck_prostate_finalize_contours.py - 
+✅ CK prostate finalization complete.

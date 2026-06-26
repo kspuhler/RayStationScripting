@@ -17,8 +17,6 @@ import io
 sys.path.insert(0, './Classes')
 sys.path.insert(0, './util')
 from Classes.ParserSpawner import ParserSpawner
-from Classes.Machines import *
-from Classes.Beam import *
 from util.Functions import *
 
 # Save the original standard output
@@ -32,7 +30,7 @@ outDir = baseDir + 'Output'
 
 f1 = askopenfilename(initialdir=rsDir,
                      title="Please Choose RS Plan:",
-                     filetypes=[("RP Dicom", "RP*")]) 
+                     filetypes=[("RP Dicom", "RP*dcm"), ("RP Dicom", "*RAD*dcm")]) 
 
 plan1 = ParserSpawner(f1)
 plan1 = plan1.spawnParser(plan1.txMachine)
@@ -44,14 +42,17 @@ except:
 
 f2 = askopenfilename(initialdir=baseDir,
                      title=t,
-                     filetypes=[("RP Dicom", "RP*dcm")]) 
+                     filetypes=[("RP Dicom", "RP*dcm"),  ("RP Dicom", "*RAD*dcm")]) 
 
 plan2 = ParserSpawner(f2)
 plan2 = plan2.spawnParser(plan2.txMachine)
 
 outDir = outDir + '\\' + plan1.PID
-outPdf = outDir + '\\' + plan1.dicom.RTPlanLabel + '.pdf'
-
+try:
+    outPdf = outDir + '\\' + plan1.dicom.RTPlanLabel + '.pdf'
+except:
+    outPdf = outDir + '\\' + plan1.dicom.StudyDescription + '.pdf'
+    
 if not os.path.exists(outDir):
     os.makedirs(outDir)
 

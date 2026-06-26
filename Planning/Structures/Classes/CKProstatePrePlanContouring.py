@@ -29,10 +29,10 @@ class CKProstatePrePlanContouring(ScriptObject):
             5. It will make 3 shells for you to use in optimizer.
     '''
     
-    def __init__(self, verboseExecution=True, runPreChecks=True):
-        
+    def __init__(self, verboseExecution=False, runPreChecks=True):
+        print("DEBUG1")
         super().__init__(verboseExecution=verboseExecution, runPreChecks=runPreChecks)
-        
+
         tmp = MakePTVProstateCK(gtvName=self.gtvName)
         print('PTV done')
         del(tmp)
@@ -41,6 +41,14 @@ class CKProstatePrePlanContouring(ScriptObject):
         self.cropRectum()
         self.makeBladderOpt()
         self.makeRectumOpt()
+        try:
+            self.makeLargeBowelOpt()
+        except:
+            pass
+        try:
+            self.makeSmallBowelOpt()
+        except:
+            pass
         
         #make shells
         #Shells
@@ -55,11 +63,12 @@ class CKProstatePrePlanContouring(ScriptObject):
         for name in ['mdgtv', 'MDGTV', 'mdGTV']:
             if checkForContour(name, caseSensitive = True):
                 self.gtvName = name
+                print(f'Using ROI {self.gtvName} to make PTV.')
         #Let user select GTV target if it cannot be found in contoured ROIs
         try:
             self.gtvName
         except AttributeError: 
-                
+            print("WINDOW")
             root = tk.Tk()
             root.withdraw()  # Hide the root window
                 
@@ -67,8 +76,11 @@ class CKProstatePrePlanContouring(ScriptObject):
             w.grab_set()  # Make sure the dropdown window grabs focus
             root.wait_window(w)  # Wait for the dropdown window to close
             self.gtvName = w.get_selected_items()
-            #TODO contour bladder and rectum using DL models if it they do not exist.
-            
+            #Tcontour bladder and rectum using DL models if it they do not exist.
+        
+        if not checkForContour("zdneposterior"):
+            self.pm.CreateRoi(Name="zDNEPosterior", Color=OPT_STRUCTURE_COLOR, Type="Control", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+        print("DEBIG2")  
     def cropBladder(self): #Bladder-GTV
         self.pm.RegionsOfInterest['Bladder'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["Bladder"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                    ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [self.gtvName], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, ResultOperation="Subtraction", 
@@ -84,13 +96,13 @@ class CKProstatePrePlanContouring(ScriptObject):
                                                                     ResultOperation="Subtraction", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         #Crop 1cm info/sup
         self.pm.RegionsOfInterest['Rectum'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["Rectum"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
-                                                                    ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["PTV_CK"], 'MarginSettings': { 'Type': "Expand", 'Superior': 1, 'Inferior': 1, 'Anterior': 9, 'Posterior': 9, 'Right': 9, 'Left': 9 } }, ResultOperation="Intersection", 
+                                                                    ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["PTV_CK"], 'MarginSettings': { 'Type': "Expand", 'Superior': 1.1, 'Inferior': 1.1, 'Anterior': 3, 'Posterior': 12, 'Right': 5, 'Left': 5 } }, ResultOperation="Intersection", 
                                                                     ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         
     def makeBladderOpt(self):
         if checkForContour('zoptbladder'):
             self.pm.RegionsOfInterest['zOptBladder'].DeleteRoi()
-        zBladder = self.pm.CreateRoi(Name="zOptBladder", Color=OPT_STRUCTURE_COLOR, Type="Organ", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+        zBladder = self.pm.CreateRoi(Name="zOptBladder", Color=OPT_STRUCTURE_COLOR, Type="Control", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
         zBladder.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV_CK"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0.5, 'Inferior': 0.5, 'Anterior': 0.5, 'Posterior': 0.5, 'Right': 0.5, 'Left': 0.5 } }, 
                                       ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["Bladder"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } },
                                       ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
@@ -99,12 +111,34 @@ class CKProstatePrePlanContouring(ScriptObject):
     def makeRectumOpt(self):
         if checkForContour('zoptrectum'):
             self.pm.RegionsOfInterest['zOptRectum'].DeleteRoi()
-        zRectum = self.pm.CreateRoi(Name="zOptRectum", Color=OPT_STRUCTURE_COLOR, Type="Organ", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+        zRectum = self.pm.CreateRoi(Name="zOptRectum", Color=OPT_STRUCTURE_COLOR, Type="Control", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
         zRectum.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV_CK"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0.5, 'Inferior': 0.5, 'Anterior': 0.5, 'Posterior': 0.5, 'Right': 0.5, 'Left': 0.5 } }, 
                                       ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["Rectum"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } },
                                       ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         zRectum.UpdateDerivedGeometry(Examination=self.exam, Algorithm="Auto")
 
+
+    def makeLargeBowelOpt(self):
+        if checkForContour('zoptlbowel'):
+            self.pm.RegionsOfInterest['zOptLBowel'].DeleteRoi()
+        zLBowel = self.pm.CreateRoi(Name="zOptLBowel", Color=OPT_STRUCTURE_COLOR, Type="Control", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+        zLBowel.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV_CK"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0.5, 'Inferior': 0.5, 'Anterior': 0.5, 'Posterior': 0.5, 'Right': 0.5, 'Left': 0.5 } }, 
+                                      ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["Large Bowel"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } },
+                                      ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+        zLBowel.UpdateDerivedGeometry(Examination=self.exam, Algorithm="Auto")
+        
+    def makeSmallBowelOpt(self):
+        if checkForContour('zoptsbowel'):
+            self.pm.RegionsOfInterest['zOptSBowel'].DeleteRoi()
+        zSBowel = self.pm.CreateRoi(Name="zOptSBowel", Color=OPT_STRUCTURE_COLOR, Type="Control", TissueName=None, RbeCellTypeName=None, RoiMaterial=None)
+        zSBowel.SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTV_CK"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0.5, 'Inferior': 0.5, 'Anterior': 0.5, 'Posterior': 0.5, 'Right': 0.5, 'Left': 0.5 } }, 
+                                      ExpressionB={ 'Operation': "Union", 'SourceRoiNames': ["Small Bowel"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } },
+                                      ResultOperation="Intersection", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+        zSBowel.UpdateDerivedGeometry(Examination=self.exam, Algorithm="Auto")
+    
+    
+        
+    
                 
         
 if __name__ == "__main__":

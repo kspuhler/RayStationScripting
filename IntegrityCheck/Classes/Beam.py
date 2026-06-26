@@ -85,9 +85,9 @@ class VarianBeam(Beam):
         super().__init__(beamSequenceSlice)
         self.eqCheckMath = {'Energy': self.energy, 
                             'Isocenter Coords': self.iso, 
-                            'SSD': self.ssd, 
                             'Gantry': self.gantry, 
                             'Collimator': self.col, 
+                            'Couch': self.couch,
                             'X Jaw': self.x, 
                             'Y Jaw': self.y, 
                             'MLC': self.mlc, 
@@ -110,16 +110,16 @@ class VarianBeam(Beam):
         self.y = np.zeros(shape=(2, 1), dtype = float)
         self.mu = np.zeros(shape=(1, self.numControlPoints), dtype = float)
         
-        cps = self.data.ControlPointSequence #literally just shorthand
+        cps = self.data.ControlPointSequence # just shorthand
         self.type     = self.data.RadiationType
      
         self.energy   = cps[0][0x300a,0x0114].value
         self.energy   = int(self.energy)
         self.iso      = cps[0][0x300a,0x012c].value
-        self.ssd      = cps[0][0x300a, 0x0130].value
         self.gantry   = cps[0][0x300a, 0x011e].value
         self.rotation = cps[0][0x300a,0x120].value
         self.col      = cps[0][0x300a, 0x0120].value
+        self.couch    = cps[0][0x300a, 0x0122].value
         
         try:
             jaws = cps[0][0x300a,0x011a]
@@ -155,44 +155,44 @@ class VarianBeam(Beam):
             self.applicator.append(appId)
             #self.applicator.append(self.data.)
 
-
 class RadixactBeam(Beam):
     
     NUM_MLC = 64
     
     def __init__(self, beamSequenceSlice):
         super().__init__(beamSequenceSlice)
-        self.eqCheckMath = { 'X Jaw': self.x, 
-                            'Y Jaw': self.y, 
-                            'MLC': self.mlc, 
-                            'Fractional MU': self.mu}
+        self.eqCheckMath = {'Gantry': self.gantry,
+                            'MLC': self.mlc}
         
+        #self.eqCheckString = {'Beam Proj Times': self.beamMU}
+
         
     def getBeamInfo(self):
         
 
-        self.gantry = np.zeros(shape=(1, self.numControlPoints), dtype = float)
-        self.iso    = np.zeros(shape=(3, self.numControlPoints), dtype = float)
-        self.x      = np.zeros(shape=(2, self.numControlPoints), dtype = float)
-        self.y      = np.zeros(shape=(2, self.numControlPoints), dtype = float)
+
+
         self.mu     = np.zeros(shape=(1, self.numControlPoints), dtype = float)
         
         mlcIndex = 0
         
         for idx, cp in enumerate(self.data.ControlPointSequence):
-            
-            self.gantry[:, idx]         = float(cp[0x300a, 0x011e].value)
+            print(f'DEBUG {idx}')
+
             if idx == 0:
-                self.iso[:, idx]            = [float(i) for i in cp[0x300a, 0x012c].value]
-            self.mu[:, idx]             = float(cp[0x300a, 0x0134].value)
-        
-            tmp = cp.BeamLimitingDevicePositionSequence
-            self.x[:, idx]           = [float(i) for i in tmp[0][0x300a, 0x011c]]
-            self.y[:, idx]           = [float(i) for i in tmp[1][0x300a, 0x011c]]
+                self.gantry = np.array(cp[0x300a, 0x011e].value)   
+                self.iso  = np.array(cp[0x300a,0x012c].value) 
+                
+            
+          
             try:
                 mlcString = cp[0x300d, 0x10a7].value
-                self.mlc[:, mlcIndex]         = self.decodeMlcString(mlcString)
-                mlcIndex += 1
+                mlcString = self.decodeMlcString(mlcString)
+                if np.sum(np.array(mlcString).flatten())==0.0:
+                    continue
+                else:
+                    self.mlc[:, mlcIndex]         = mlcString
+                    mlcIndex += 1
             except KeyError:
                 pass
 
@@ -211,14 +211,80 @@ class RadixactBeam(Beam):
         numMlcPoints = 0
         for ii in self.data.ControlPointSequence:
             try:
-                ii[0x300d, 0x10a7]
-                numMlcPoints += 1
+                tmp=np.array(self.decodeMlcString(ii[0x300d, 0x10a7].value))
+                if np.sum(tmp.flatten()) == 0.0:
+                    #print('bumba')
+                    continue
+                else:
+                    numMlcPoints += 1
             except KeyError:
                 pass
         
         self.mlc = np.zeros(shape=(self.NUM_MLC, numMlcPoints))
+
+# class RadixactBeam(Beam):
+    
+#     NUM_MLC = 64
+    
+#     def __init__(self, beamSequenceSlice):
+#         super().__init__(beamSequenceSlice)
+#         self.eqCheckMath = { 'X Jaw': self.x, 
+#                             'Y Jaw': self.y, 
+#                             'MLC': self.mlc, 
+#                             'Fractional MU': self.mu}
         
         
+#     def getBeamInfo(self):
+        
+
+#         self.gantry = np.zeros(shape=(1, self.numControlPoints), dtype = float)
+#         self.iso    = np.zeros(shape=(3, self.numControlPoints), dtype = float)
+#         self.x      = np.zeros(shape=(2, self.numControlPoints), dtype = float)
+#         self.y      = np.zeros(shape=(2, self.numControlPoints), dtype = float)
+#         self.mu     = np.zeros(shape=(1, self.numControlPoints), dtype = float)
+        
+#         mlcIndex = 0
+        
+#         for idx, cp in enumerate(self.data.ControlPointSequence):
+#             print(f'DEBUG {idx}')
+#             self.gantry[:, idx]         = float(cp[0x300a, 0x011e].value)
+#             if idx == 0:
+#                 self.iso[:, idx]            = [float(i) for i in cp[0x300a, 0x012c].value]
+#             self.mu[:, idx]             = float(cp[0x300a, 0x0134].value)
+        
+#             tmp = cp.BeamLimitingDevicePositionSequence
+#             self.x[:, idx]           = [float(i) for i in tmp[0][0x300a, 0x011c]]
+#             self.y[:, idx]           = [float(i) for i in tmp[1][0x300a, 0x011c]]
+#             try:
+#                 mlcString = cp[0x300d, 0x10a7].value
+#                 self.mlc[:, mlcIndex]         = self.decodeMlcString(mlcString)
+#                 mlcIndex += 1
+#             except KeyError:
+#                 pass
+
+        
+          
+#     def getNumControlPoints(self):
+#         self.numControlPoints = len(self.data.ControlPointSequence)
+        
+#     def decodeMlcString(self, mlcString): #decodes the byte string representing radixact mlc positions
+#         mlcString = mlcString.decode()
+#         mlcString =  mlcString.split('\\')
+#         return [float(i) for i in mlcString]
+    
+#     def constructMlcArray(self):
+#         #return ndarray size (num_mlc, num_control_point)
+#         numMlcPoints = 0
+#         for ii in self.data.ControlPointSequence:
+#             try:
+#                 ii[0x300d, 0x10a7]
+#                 numMlcPoints += 1
+#             except KeyError:
+#                 pass
+        
+#         self.mlc = np.zeros(shape=(self.NUM_MLC, numMlcPoints))
+        
+
         
 class CyberKnifeBeam(Beam):
     
@@ -227,7 +293,7 @@ class CyberKnifeBeam(Beam):
     def __init__(self, roboticPathControlPointSequenceSlice):
         super().__init__(roboticPathControlPointSequenceSlice)
         
-        self.eqCheckMath = {'Robot Coords': self.coords, 'MU': self.mu, 'MLC': self.mlc}
+        self.eqCheckMath = {'Robot Coords': self.coords, 'MU': self.mu, 'Collimator': self.mlc}
         
 
     

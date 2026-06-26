@@ -36,9 +36,20 @@ class MakePTV(ScriptObject):
             
     def preChecks(self):
         
-        if not checkForContour('external'):
+        #if not checkForContour('external') or checkForContour('external_dibh'):
+        #    ext = self.pm.CreateRoi(Name="External", Color="Green", Type="External", TissueName="", RbeCellTypeName=None, RoiMaterial=None) ##TODO CHANGE BACK TO EXTERNAL
+        #    ext.CreateExternalGeometry(Examination=self.exam, ThresholdLevel=-250)
+        #Create external if we don't have one.
+        hasExternal = False
+        for r in self.pm.RegionsOfInterest:
+            if r.Type == "External":
+                hasExternal = True
+                break
+        if not hasExternal:
             ext = self.pm.CreateRoi(Name="External", Color="Green", Type="External", TissueName="", RbeCellTypeName=None, RoiMaterial=None) ##TODO CHANGE BACK TO EXTERNAL
             ext.CreateExternalGeometry(Examination=self.exam, ThresholdLevel=-250)
+            
+    
     
         if self.getMarginFromUser:
             self.openMarginWindow()

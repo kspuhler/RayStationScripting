@@ -27,4 +27,17 @@ def checkForContour(name, caseSensitive = False):
     
     return name in rois
     
+def checkForContourSubstring(name, caseSensitive = False):
+    case = get_current('Case')
+    if not caseSensitive:
+        name = name.lower()
+        rois = [x.Name.lower() for x in case.PatientModel.RegionsOfInterest]
     
+    elif caseSensitive == True:
+        
+        rois = [x.Name for x in case.PatientModel.RegionsOfInterest]
+        print(name)
+        print(rois)
+    
+    return any(name in x for x in rois)
+        

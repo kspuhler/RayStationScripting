@@ -274,8 +274,10 @@ class CKsimulation():
         #loop over POIs to get number of points of type marker
         for i, j in enumerate(self.Fiducials):
             marker_type = j.OfPoi.Type
-
-            if marker_type == 'Marker':
+            marker_name = j.OfPoi.Name
+            
+            if (marker_type == 'Marker') and 'Fid' in marker_name:
+                print('MARKER NAME:', marker_name)
                 marker_count += 1
 
         if marker_count == 0:
@@ -305,8 +307,9 @@ class CKsimulation():
             for i, j in enumerate(self.Fiducials):
                 pt_name = j.OfPoi.Name
                 marker_type = j.OfPoi.Type
-
-                if marker_type == 'Marker':
+                marker_name = j.OfPoi.Name
+                
+                if marker_type == 'Marker' and 'Fid' in marker_name:
                     coords = j.Point.values()
                     coords = list(coords)
                     self.fid_x = round(coords[0], 3)

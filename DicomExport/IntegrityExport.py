@@ -40,5 +40,8 @@ class IntegrityExport(DicomExportBase):
             self.case.ScriptableDicomExport(ExportFolderPath = self.exportPath, BeamSets = self.beamSets, IgnorePreConditionWarnings = True)
         
 
+def run_integrity_export():
+    tmp = IntegrityExport()
+
 if __name__ == "__main__":
     tmp = IntegrityExport(fPathBaseIntegrity)

@@ -7,10 +7,14 @@ class StructureTemplate(object):
     ###Takes a list of tuples of form (name, color, type) and makes empty ROIsin patientModel
 
 
-    def __init__(self, roiList, patientModel):
+    def __init__(self, roiList, patientModel=None):
         self.roiList = roiList
         self._checkRoiList()
-        self.pm = patientModel
+        if patientModel:       
+            self.pm = patientModel
+        else:
+            self.pm = get_current("Case")
+            self.pm = self.pm.PatientModel
         self._getRoisInPatientModel()
 
 
@@ -46,11 +50,15 @@ class StructureTemplate(object):
                 try:
                     self.pm.CreateRoi(Name = ii[0], Color = ii[1], Type = ii[2])
                 except:
+                    print(f"Failed to create ROI {ii[0]}")
                     pass
+                
+    def makeDerivedRois(self):
+        pass
 
 if __name__ == '__main__':
     from roi_list_templates import *
     case = get_current("Case")
     pm = case.PatientModel
-    test = StructureTemplate(prostSBRT, pm)
+    test = StructureTemplate(tailor2A, pm)
     test.make_empty_rois()

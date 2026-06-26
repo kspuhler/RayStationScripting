@@ -74,8 +74,12 @@ class MarginInputWindow:
         self.onClose()
 
     def onClose(self):
-        self.window.destroy()  # Properly destroy the Toplevel window
-        
+        try:
+            if self.window and self.window.winfo_exists():
+                self.window.destroy()
+        except tk.TclError:
+            pass
+
 if __name__ == "__main__":
     def testCallback(result):
         print("Test callback received margins:")

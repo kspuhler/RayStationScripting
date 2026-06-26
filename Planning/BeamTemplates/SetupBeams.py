@@ -28,6 +28,7 @@ class SetupBeams(object):
             print(ii)
             self.beamSet.PatientSetup.SetupBeams[idx].Name = "SETUP g" + str(ii) 
             self.beamSet.PatientSetup.SetupBeams[idx].Description = "SETUP g" + str(ii) 
+            self.beamSet.PatientSetup.SetupBeams[idx].Segments[0].DoseRate=600
         
         
 if __name__ == '__main__':

@@ -40,7 +40,7 @@ def isMultiIsoBeamSet(bs = None):
         return True
     else:
         return False
-    
+
 
 def calcShift(isocenter, message = False, bs = None, exam = None, pm = None):
     '''Determine a shift for an isocenter
@@ -112,5 +112,19 @@ def calcShift(isocenter, message = False, bs = None, exam = None, pm = None):
         pass
     
     return messageOut
+
+def checkIfHandCalc(pm):
+    if not pm:
+        try:
+            bs = get_current('PatientModel')
+        except:
+            raise Exception("DEBUG: You do not have a patient model open!")
+    
+    rois = pm.RegionsOfInterest
+    for ii in rois:
+        if ii.Type == "External" and ii.RoiMaterial:
+            return True
+    return False
+    
 
         

@@ -192,6 +192,8 @@ def TreatmentTechnique(bs):
                 TT = 'DMLC'
             if bs.DeliveryTechnique == 'Arc': # RS6
                 TT = 'VMAT'
+            if bs.DeliveryTechnique == 'TomoHelical':
+                TT = 'TomoHelical'
 
         if bs.PlanGenerationTechnique == 'Conformal':
             if bs.DeliveryTechnique == 'SMLC':
@@ -200,6 +202,8 @@ def TreatmentTechnique(bs):
                 TT = 'Conformal Arc'
             if bs.DeliveryTechnique == 'DynamicArc':
                 TT = 'VMAT'
+            if bs.DeliveryTechnique == 'TomoHelical':
+                TT = 'TomoHelical'
 
     if bs.Modality == 'Electrons':
         if bs.PlanGenerationTechnique == 'Conformal':

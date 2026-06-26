@@ -43,5 +43,14 @@ TamAbdomen = {'RSL DLS Thorax-Abdomen CT':
                           "Kidney_R": "Kidney_R"}
             }
                          
-                    
-                          
+SolanBreast = {'RSL DLS Breast CT': 
+                   {"HumeralHead_L":"HumeralHead_L", 
+                    "HumeralHead_R":"HumeralHead_R"}, 
+               'RSL DLS Head and Neck CT': 
+                   {"SpinalCord":"SpinalCord_S"}, 
+               'RSL DLS Thorax-Abdomen CT': 
+                   {"Heart":"Heart_pa_separate", 
+                    "Liver":"Liver", 
+                    "Lung_L":"Lung_L", 
+                    "Lung_R":"Lung_R"} 
+               }                    

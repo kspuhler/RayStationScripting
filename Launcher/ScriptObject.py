@@ -11,7 +11,7 @@ from FrontEnd.GenericPopup import GenericPopup
 
 
 class ScriptObject(object):
-    
+    '''test'''
     def __init__(self, verboseExecution=True, runPreChecks=True, inferPhysician=True):
         self.verboseExecution = verboseExecution
         self.runPreChecks = runPreChecks
@@ -25,8 +25,12 @@ class ScriptObject(object):
             self.preChecks()
         
         if inferPhysician:
-            self.determinePhysician()
-        
+            try:
+                self.determinePhysician()
+            except:
+                self.physician = None #I imagine there is a better way to handle this.
+            
+    
     def showInfo(self):
         w = GenericPopup(title='Script Execution Info', message=self.__doc__)
         w.showPopup()
@@ -48,13 +52,17 @@ class ScriptObject(object):
                 
     def getCurrent(self):
         try:
+            self.patient = get_current("Patient")
+        except:
+            print("Failed to load patient")
+        try:
             self.plan = get_current('Plan')
         except:
             print("Failed to load plan.")        
         try:
             self.exam = get_current('Examination')
         except:
-            print("Failed to load exam.")       
+            print("Failed to load exam.")   
         try:
             self.case = get_current('Case')
         except:
@@ -67,3 +75,6 @@ class ScriptObject(object):
             self.bs   = get_current("BeamSet")
         except:
             print("Failed to load beamset")
+
+if __name__ == "__main__":
+    ScriptObject(runPreChecks=False)

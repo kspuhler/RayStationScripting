@@ -27,7 +27,7 @@ except:
 from DicomExport.DicomExportBase import DicomExportBase
 from RSutil.variables import VARIAN_MACHINES, CYBERKNIFE_LI, CYBERKNIFE_NYC, RADIXACTS, RS_UTIL_ARIA_CONNECTION, RS_UTIL_PRECISION_CONNECTION_LI, RS_UTIL_PRECISION_CONNECTION_NYC
 from FrontEnd.GenericPopup import GenericPopup
-
+#from PlanCheck.Functions import checkIfHandCalc
 
 #Get filepath to export
 
@@ -62,10 +62,10 @@ class TPSExport(DicomExportBase):
                 elif bs.MachineReference['MachineName'] in RADIXACTS:
                     self.exportTarget = 'RAYGATEWAY'
                 elif bs.MachineReference['MachineName'] in CYBERKNIFE_LI: 
-                    self.exportTarget = 'N1000'
+                    self.exportTarget = 'N1000_LI'
                     self.connection = RS_UTIL_PRECISION_CONNECTION_LI
                 elif bs.MachineReference['MachineName'] in CYBERKNIFE_NYC: 
-                    self.exportTarget = 'N1000'
+                    self.exportTarget = 'N1000_NYC'
                     self.connection = RS_UTIL_PRECISION_CONNECTION_NYC       
     
     def editPoiVisibility(self, boolean) -> None:
@@ -78,10 +78,21 @@ class TPSExport(DicomExportBase):
         self.inferExportTarget()
         self.editPoiVisibility(False)
         if self.exportTarget == 'ARIA':
+            #Make sure it isn't a hand calc with uneven weights
+          #  if checkIfHandCalc():
+          #      for bs in self.beamSets:
+          #          for 
+                     
             self.case.ScriptableDicomExport(Connection = self.connection, RtStructureSetsForExaminations  = [self.exam.Name],
                                      BeamSets = self.beamSets, Examinations = [self.exam.Name], PhysicalBeamSetDoseForBeamSets = self.beamSets,
                                      TreatmentBeamDrrImages = self.beamSets, SetupBeamDrrImages = self.beamSets, IgnorePreConditionWarnings = True)            
-        elif  self.exportTarget == 'N1000':
+        elif  self.exportTarget == 'N1000_NYC':
+            self.case.ScriptableDicomExport(Connection = self.connection, RtStructureSetsForExaminations  = [self.exam.Name],
+                                     BeamSets = self.beamSets, Examinations = [self.exam.Name], PhysicalBeamSetDoseForBeamSets = self.beamSets,
+                                     TreatmentBeamDrrImages = None, SetupBeamDrrImages = None, IgnorePreConditionWarnings = True, 
+                                     RtRadiationsForBeamSets = self.beamSets, RtRadiationSetForBeamSets = self.beamSets)
+
+        elif  self.exportTarget == 'N1000_LI':
             self.case.ScriptableDicomExport(Connection = self.connection, RtStructureSetsForExaminations  = [self.exam.Name],
                                      BeamSets = self.beamSets, Examinations = [self.exam.Name], PhysicalBeamSetDoseForBeamSets = self.beamSets,
                                      TreatmentBeamDrrImages = None, SetupBeamDrrImages = None, IgnorePreConditionWarnings = True, 

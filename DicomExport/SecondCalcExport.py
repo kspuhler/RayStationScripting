@@ -36,9 +36,19 @@ class SecondCalcExport(DicomExportBase):
         self.beamSets    = [bs.BeamSetIdentifier() for bs in self.plan.BeamSets]
 
     def runExport(self):
-    	self.chooseDataToExport()
-    	self.case.ScriptableDicomExport(ExportFolderPath = self.exportPath, RtStructureSetsForExaminations  = [self.exam.Name],
-                                     BeamSets = self.beamSets, IgnorePreConditionWarnings = True, ExportAsBdspDose = True)
+        self.chooseDataToExport()
+        try:
+            self.case.ScriptableDicomExport(Connection = self.connection, RtStructureSetsForExaminations  = [self.exam.Name],
+                                     BeamSets = self.beamSets, Examinations = [self.exam.Name], PhysicalBeamSetDoseForBeamSets = self.beamSets,
+                                     TreatmentBeamDrrImages = None, SetupBeamDrrImages = None, IgnorePreConditionWarnings = True, 
+                                     RtRadiationsForBeamSets = self.beamSets, RtRadiationSetForBeamSets = self.beamSets)
+            
 
+        except:
+            pass
+            #self.case.ScriptableDicomExport(ExportFolderPath = self.exportPath, RtStructureSetsForExaminations  = [self.exam.Name],
+            #                         BeamSets = self.beamSets, IgnorePreConditionWarnings = True, ExportAsBdspDose = True)
+
+            
 if __name__ == "__main__":
     tmp = SecondCalcExport(fPathBaseSecondCalc)

@@ -1,0 +1,67 @@
+QWidget{
+        background-color:#56514E;
+        color:white;
+        }
+
+QTableWidget{
+            font-size:12pt;
+            }
+
+QLabel{
+            font-size:12pt;
+            }
+
+#PatientData{
+            font-size:11pt;
+            font-weight:bold;
+            color:#F0F8FF;
+            }
+            
+
+QHeaderView{
+           font-size:12pt;
+           background-color:#2E2E2E;
+           }
+
+QComboBox{
+         font-size:12pt;
+         }
+
+
+QPushButton{
+            qproperty-iconSize:28px;
+            font-size:10px;
+            height:30px;
+            width:32px;
+           }
+
+QCalendarWidget QToolButton{
+               font-size:30px;
+               icon-size:36px, 36px;
+               }
+
+QCalendarWidget QMenu{
+               background-color:#6977C4;
+               }
+
+QCalendarWidget QWidget{
+               background-color:#D0E7CF;
+               Color:black;
+               font-size:16px;
+               }
+QToolTip{
+    font-size:14px;
+    background-color:#FFFFB7;
+    }
+
+QDialog QCheckBox{
+    font-size:14px;
+    }
+
+QMessageBox{
+    font-size:14px;
+    }
+
+QMessageBox DetailedText{
+    font-size:14px;
+    }

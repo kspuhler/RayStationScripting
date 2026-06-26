@@ -39,16 +39,36 @@ class MakePTVProstateEBRT(MakePTV):
 
 
     def preChecks(self):
-        for ii in ["MDGTV", "LtNode", "RtNode"]:
+        
+        if self.getMarginFromUser:
+            self.openMarginWindow()
+        
+
+     
+        for ii in ["MDGTV"]:
             if not checkForContour(ii, caseSensitive=False):
                 raise(Exception(f"Roi:{ii} not found!"))
                 return
-        super().preChecks()
+        if checkForContour("LtNode") and checkForContour("RtNode"):
+            #^We have contoured Lt and Rt node on this scan, otherwise we skip to avoid deleting Todd's CTV node
+            try:
+                self.pm.CreateRoi(Name="CTV nodes", Color="Cyan", Type="ctv", TissueName="", RbeCellTypeName=None, RoiMaterial=None)
+            except:
+                pass
+            
+            self.pm.RegionsOfInterest["CTV nodes"].SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["LtNode", "RtNode"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 }}, 
+                                                                     ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                                                     ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
+        
+        elif checkForContour("CTV nodes"): #Todd did this one so we are going to try to delete Lt Node, Rt Node and set CTV nodes equal to itself to remove ROI derived status 
+            self.pm.RegionsOfInterest['CTV nodes'].CreateAlgebraGeometry(Examination=self.exam, Algorithm="Auto", ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["CTV nodes"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                                                         ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+                                                                         ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         
     
     def makePtv(self):
 
-        for ii in ["PTVp", "PTV_ltn", "PTV_rtn", "PTV4500"]: #Make PTV ROIs that do not exist
+        for ii in ["PTVp", "PTVn", "PTV4500"]: #Make PTV ROIs that do not exist
             if not checkForContour(ii, caseSensitive=True):
                 self.pm.CreateRoi(Name=ii, Color="Pink", Type="ptv", TissueName="", RbeCellTypeName=None, RoiMaterial=None)
          
@@ -58,19 +78,16 @@ class MakePTVProstateEBRT(MakePTV):
                                                                  ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                  ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         print('ccc')
-        self.pm.RegionsOfInterest['PTV_ltn'].SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["LtNode"], 'MarginSettings': self.formattedMargins.get('NodeMargin', {})}, 
+        self.pm.RegionsOfInterest['PTVn'].SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["CTV nodes"], 'MarginSettings': self.formattedMargins.get('NodeMargin', {})}, 
                                                                  ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                  ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         
-        self.pm.RegionsOfInterest['PTV_rtn'].SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["RtNode"], 'MarginSettings': self.formattedMargins.get('NodeMargin', {})},                                                              
-                                                                 ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
-                                                                 ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
         
-        self.pm.RegionsOfInterest['PTV4500'].SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTVp", "PTV_ltn", "PTV_rtn"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
+        self.pm.RegionsOfInterest['PTV4500'].SetAlgebraExpression(ExpressionA={ 'Operation': "Union", 'SourceRoiNames': ["PTVp", "PTVn"], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                  ExpressionB={ 'Operation': "Union", 'SourceRoiNames': [], 'MarginSettings': { 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 } }, 
                                                                  ResultOperation="None", ResultMarginSettings={ 'Type': "Expand", 'Superior': 0, 'Inferior': 0, 'Anterior': 0, 'Posterior': 0, 'Right': 0, 'Left': 0 })
 
-        self.pm.UpdateDerivedGeometries(RoiNames=["PTVp", "PTV_ltn", "PTV_rtn", "PTV4500"], Examination=self.exam, Algorithm="Auto", AreEmptyDependenciesAllowed=False)
+        self.pm.UpdateDerivedGeometries(RoiNames=["PTVp", "PTVn", "PTV4500"], Examination=self.exam, Algorithm="Auto", AreEmptyDependenciesAllowed=False)
         
 if __name__ == "__main__":
     MakePTVProstateEBRT()

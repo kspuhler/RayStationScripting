@@ -1,0 +1,2732 @@
+2025-11-10 10:34:43,092 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-10 10:34:43,160 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14288756 || CaseName: Case 1
+2025-11-10 10:34:43,162 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 10:42:08,170 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-10 10:42:08,237 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14288756 || CaseName: Case 1
+2025-11-10 10:42:08,239 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 10:44:14,082 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-10 10:44:14,151 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14288756 || CaseName: Case 1
+2025-11-10 10:44:14,153 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 10:44:14,154 - ERROR - breast_sib - main_breast_sib.py - [FAILED] in main_breast_sib.py.  Email notification sent.  Exception: Testing debugging...
+2025-11-10 10:44:20,678 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-10 10:44:59,638 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-10 10:44:59,707 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14288756 || CaseName: Case 1
+2025-11-10 10:44:59,709 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 10:52:39,269 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-10 10:52:39,337 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14288756 || CaseName: Case 1
+2025-11-10 10:52:39,339 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2025-11-10 10:54:32,169 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-10 12:31:07,448 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-10 12:31:07,516 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9876122 || CaseName: Case 1
+2025-11-10 12:31:07,517 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2025-11-11 08:42:53,176 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-11 08:42:53,244 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17730759 || CaseName: Case 1
+2025-11-11 08:42:53,245 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-11 08:53:26,334 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-11 13:59:56,073 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-11 13:59:56,140 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9358880 || CaseName: Case 1
+2025-11-11 13:59:56,141 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-11 14:08:10,106 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-12 06:18:25,520 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-12 06:18:25,609 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9358880 || CaseName: Case 1
+2025-11-12 06:18:25,611 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-12 06:27:09,026 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-13 08:31:18,976 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-13 08:31:19,045 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10250096 || CaseName: Case 1
+2025-11-13 08:31:19,047 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2025-11-13 08:41:56,398 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-13 08:41:56,465 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10250096 || CaseName: Case 1
+2025-11-13 08:41:56,466 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2025-11-13 08:52:18,975 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-13 08:52:19,042 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10250096 || CaseName: Case 1
+2025-11-13 08:52:19,043 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2025-11-17 09:47:57,108 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-17 09:47:57,175 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14195755 || CaseName: Case 1
+2025-11-17 09:47:57,177 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-17 09:59:56,585 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-19 13:02:03,728 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-19 13:02:03,792 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10374579 || CaseName: Case 1
+2025-11-19 13:02:03,794 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-19 13:11:41,004 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-20 11:12:15,431 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-20 11:12:15,496 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12771797 || CaseName: Case 1
+2025-11-20 11:12:15,498 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-21 07:42:28,302 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-21 07:42:28,371 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9995177 || CaseName: Case 1
+2025-11-21 07:42:28,372 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-21 07:49:53,003 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-21 07:49:53,071 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9995177 || CaseName: Case 1
+2025-11-21 07:49:53,072 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-21 07:57:23,677 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-21 16:19:36,853 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-21 16:19:36,923 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17412141 || CaseName: Case 1
+2025-11-21 16:19:36,924 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\SANTOJ14
+2025-11-21 16:29:02,595 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-21 16:33:22,146 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-21 16:33:22,213 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17412141 || CaseName: Case 1
+2025-11-21 16:33:22,214 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\SANTOJ14
+2025-11-21 16:37:18,770 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-24 07:32:45,310 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-24 07:32:45,379 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15673665 || CaseName: Case 1
+2025-11-24 07:32:45,380 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-24 07:42:42,414 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-24 10:42:10,241 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-24 10:42:10,361 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17412141 || CaseName: Case 1
+2025-11-24 10:42:10,362 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\SANTOJ14
+2025-11-24 10:45:14,677 - ERROR - breast_sib - main_breast_sib.py - [FAILED] in main_breast_sib.py.  Email notification sent.  Exception: System.AggregateException: One or more errors occurred. ---> System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CorePlatform.Framework.PreConditionViolationException: All beams need to have valid segments.
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireTrue(Boolean condition, String platformFormattedMessage, String guiFormattedMessage)
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireValid(IValidationResult validationResult)
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.AssertPreconditions()
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.Execute()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.CreateAndExeuteService_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.ComputeCustomDoseWork_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteComputeDoseSubAction_(Boolean computeBeamDoses)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ComputeFinalDoseAndFinalize_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at RaySearch.Scripting.ScriptService.ScriptService.ExecuteScriptableAction_(IScriptableAction action)
+   at RaySearch.Scripting.ScriptService.ScriptService.InvokeAction_(DataEntity& returnData, DataEntity[] arguments, IScriptableAction action, String methodName)
+---> (Inner Exception #0) System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CorePlatform.Framework.PreConditionViolationException: All beams need to have valid segments.
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireTrue(Boolean condition, String platformFormattedMessage, String guiFormattedMessage)
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireValid(IValidationResult validationResult)
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.AssertPreconditions()
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.Execute()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.CreateAndExeuteService_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.ComputeCustomDoseWork_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteComputeDoseSubAction_(Boolean computeBeamDoses)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ComputeFinalDoseAndFinalize_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CorePlatform.Framework.PreConditionViolationException: All beams need to have valid segments.
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireTrue(Boolean condition, String platformFormattedMessage, String guiFormattedMessage)
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireValid(IValidationResult validationResult)
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.AssertPreconditions()
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.Execute()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.CreateAndExeuteService_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.ComputeCustomDoseWork_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteComputeDoseSubAction_(Boolean computeBeamDoses)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ComputeFinalDoseAndFinalize_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> RaySearch.CorePlatform.Framework.PreConditionViolationException: All beams need to have valid segments.
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireTrue(Boolean condition, String platformFormattedMessage, String guiFormattedMessage)
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireValid(IValidationResult validationResult)
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.AssertPreconditions()
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.Execute()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.CreateAndExeuteService_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.ComputeCustomDoseWork_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteComputeDoseSubAction_(Boolean computeBeamDoses)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ComputeFinalDoseAndFinalize_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+---> (Inner Exception #0) RaySearch.CorePlatform.Framework.PreConditionViolationException: All beams need to have valid segments.
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireTrue(Boolean condition, String platformFormattedMessage, String guiFormattedMessage)
+   at RaySearch.CorePlatform.Framework.PreCondition.RequireValid(IValidationResult validationResult)
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.AssertPreconditions()
+   at RaySearch.CorePlatform.Framework.CoreOrbitServiceRequest`2.Execute()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.CreateAndExeuteService_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.ComputeCustomDoseWork_(ComputeDoseDataProvider dataProvider)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.ComputeDoseWorkAction.DoWork_()<---
+<---
+<---
+<---
+
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2025-11-24 10:45:28,603 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-24 10:47:18,885 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-24 10:47:18,953 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17412141 || CaseName: Case 1
+2025-11-24 10:47:18,955 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\SANTOJ14
+2025-11-24 10:48:41,803 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-24 10:48:41,871 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17412141 || CaseName: Case 1
+2025-11-24 10:48:41,872 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\SANTOJ14
+2025-11-24 10:53:53,122 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-25 10:21:40,208 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-25 10:21:40,277 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17240688 || CaseName: Case 1
+2025-11-25 10:21:40,279 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-25 10:28:29,466 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-25 10:28:29,560 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17240688 || CaseName: Case 1
+2025-11-25 10:28:29,561 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-25 10:40:32,560 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-25 10:47:45,413 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-25 10:47:45,482 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17240688 || CaseName: Case 1
+2025-11-25 10:47:45,483 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-25 10:57:51,020 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-11-25 13:55:57,140 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-11-25 13:55:57,213 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10049493 || CaseName: Case 1
+2025-11-25 13:55:57,214 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-11-25 14:05:21,443 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-02 13:49:08,793 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-02 13:49:08,861 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17684786 || CaseName: Case 1
+2025-12-02 13:49:08,862 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-02 13:56:20,020 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-02 14:05:03,665 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-02 14:05:03,762 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17684786 || CaseName: Case 1
+2025-12-02 14:05:03,764 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-02 14:10:34,776 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-03 08:11:27,880 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-03 08:11:27,970 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12250965 || CaseName: Case 1
+2025-12-03 08:11:27,971 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2025-12-04 09:15:02,211 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-04 09:15:02,281 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 8925887 || CaseName: Case 1
+2025-12-04 09:15:02,282 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-04 09:23:46,921 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-05 08:20:48,690 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-05 08:20:48,759 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13207472 || CaseName: Case 1
+2025-12-05 08:20:48,760 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-08 07:19:10,124 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-08 07:19:10,194 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13207472 || CaseName: Case 1
+2025-12-08 07:19:10,195 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-08 07:27:33,865 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-08 11:20:52,453 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-08 11:20:52,518 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11186868 || CaseName: Case 1
+2025-12-08 11:20:52,519 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-08 11:25:27,164 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-09 06:35:37,785 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-09 06:35:37,855 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10253323 || CaseName: Case 1
+2025-12-09 06:35:37,856 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-09 06:39:01,542 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-09 06:39:01,610 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10253323 || CaseName: Case 1
+2025-12-09 06:39:01,611 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-09 06:50:53,204 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-09 09:29:02,427 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-09 09:29:02,502 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12821533 || CaseName: Case 1
+2025-12-09 09:29:02,504 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-09 10:16:25,473 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-11 13:07:57,505 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-11 13:07:57,577 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17646341 || CaseName: Case 1
+2025-12-11 13:07:57,579 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-11 13:17:36,511 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-15 06:44:52,230 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-15 06:44:52,298 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10289939 || CaseName: Case 1
+2025-12-15 06:44:52,299 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-15 06:53:59,215 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-15 09:36:19,015 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-15 09:36:19,080 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 16824438 || CaseName: Case 1
+2025-12-15 09:36:19,081 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-15 09:45:32,401 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-16 09:02:18,872 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-16 09:02:18,940 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17527256 || CaseName: Case 1
+2025-12-16 09:02:18,941 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-16 09:03:10,533 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-16 09:03:10,615 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17527256 || CaseName: Case 1
+2025-12-16 09:03:10,617 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-16 09:07:45,651 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-16 13:38:58,335 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-16 13:38:58,400 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17508027 || CaseName: Case 1
+2025-12-16 13:38:58,401 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-16 13:39:28,409 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-16 13:39:28,479 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17508027 || CaseName: Case 1
+2025-12-16 13:39:28,480 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-16 13:40:21,047 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-16 13:40:21,120 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17508027 || CaseName: Case 1
+2025-12-16 13:40:21,121 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-16 13:53:08,554 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-18 08:34:17,188 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-18 08:34:17,255 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 0831886 || CaseName: Case 1
+2025-12-18 08:34:17,257 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-18 08:41:08,623 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-18 10:10:35,949 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-18 10:10:36,017 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 0831886 || CaseName: Case 1
+2025-12-18 10:10:36,019 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-18 10:15:22,234 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-18 13:35:13,807 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-18 13:35:13,881 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17508027 || CaseName: Case 1
+2025-12-18 13:35:13,882 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-18 13:39:10,118 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-18 13:40:14,170 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-18 13:40:14,240 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17508027 || CaseName: Case 1
+2025-12-18 13:40:14,242 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-18 13:45:25,874 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-19 06:48:14,846 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-19 06:48:14,920 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13724714 || CaseName: Case 1
+2025-12-19 06:48:14,921 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-19 07:05:31,089 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-19 07:05:31,154 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13724714 || CaseName: Case 1
+2025-12-19 07:05:31,155 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-19 09:17:02,324 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-19 09:17:02,394 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9617765 || CaseName: Case 1
+2025-12-19 09:17:02,396 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-19 09:18:01,559 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-19 09:18:01,624 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9617765 || CaseName: Case 1
+2025-12-19 09:18:01,626 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-19 09:20:13,433 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-19 09:20:13,500 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9617765 || CaseName: Case 1
+2025-12-19 09:20:13,501 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-22 08:49:35,890 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-22 08:49:35,958 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9886076 || CaseName: Case 1
+2025-12-22 08:49:35,959 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-22 08:56:04,666 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-22 12:48:47,622 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-22 12:48:47,689 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12381867 || CaseName: Case 1
+2025-12-22 12:48:47,690 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-22 12:59:33,053 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-22 12:59:33,171 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12381867 || CaseName: Case 1
+2025-12-22 12:59:33,172 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-22 13:07:46,815 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-23 13:09:30,025 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-23 13:09:30,095 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10302596 || CaseName: Case 1
+2025-12-23 13:09:30,096 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-23 13:11:25,857 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-23 13:11:25,927 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10302596 || CaseName: Case 1
+2025-12-23 13:11:25,929 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-23 13:18:45,775 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-29 13:01:41,157 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-29 13:01:41,224 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9782261 || CaseName: Case 1
+2025-12-29 13:01:41,226 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-29 13:09:56,503 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-29 13:09:56,578 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9782261 || CaseName: Case 1
+2025-12-29 13:09:56,581 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-29 13:17:15,744 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-30 11:42:07,246 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-30 11:42:07,336 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11196848 || CaseName: Case 1
+2025-12-30 11:42:07,337 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-30 11:53:20,092 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2025-12-31 10:48:57,559 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-31 10:48:57,625 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17448872 || CaseName: Case 1
+2025-12-31 10:48:57,627 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2025-12-31 10:58:48,882 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2025-12-31 10:58:48,955 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17448872 || CaseName: Case 1
+2025-12-31 10:58:48,956 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-05 12:54:38,095 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-05 12:54:38,162 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12770446 || CaseName: Case 1
+2026-01-05 12:54:38,164 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-05 13:01:55,036 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-06 07:02:09,010 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-06 07:02:09,078 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12417737 || CaseName: Case 1
+2026-01-06 07:02:09,079 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-06 07:10:07,427 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-06 08:53:54,048 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-06 08:53:54,115 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 0002025 || CaseName: Baseline
+2026-01-06 08:53:54,116 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-01-08 06:37:24,095 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-08 06:37:24,165 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13691373 || CaseName: Case 1
+2026-01-08 06:37:24,166 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-08 06:43:46,479 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-08 06:51:03,409 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-08 06:51:03,477 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13691373 || CaseName: Case 1
+2026-01-08 06:51:03,478 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-08 06:56:16,668 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-08 09:07:39,157 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-08 09:07:39,224 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10353238 || CaseName: Case 1
+2026-01-08 09:07:39,226 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-01-08 09:20:15,599 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-09 13:45:56,042 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-09 13:45:56,131 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10322170 || CaseName: Case 1
+2026-01-09 13:45:56,133 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\HWANGT01
+2026-01-09 14:42:32,660 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-12 09:10:00,058 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 09:10:00,134 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15036648 || CaseName: Case 1
+2026-01-12 09:10:00,136 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-12 09:12:21,520 - ERROR - breast_sib - main_breast_sib.py - [FAILED] in main_breast_sib.py.  Email notification sent.  Exception: System.AggregateException: One or more errors occurred. ---> System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at RaySearch.Scripting.ScriptService.ScriptService.ExecuteScriptableAction_(IScriptableAction action)
+   at RaySearch.Scripting.ScriptService.ScriptService.InvokeAction_(DataEntity& returnData, DataEntity[] arguments, IScriptableAction action, String methodName)
+---> (Inner Exception #0) System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+---> (Inner Exception #0) RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.<---
+<---
+<---
+<---
+<---
+
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-01-12 09:17:10,369 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 09:17:10,463 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15036648 || CaseName: Case 1
+2026-01-12 09:17:10,465 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-12 10:21:50,426 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 10:21:50,497 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17704836 || CaseName: Case 1
+2026-01-12 10:21:50,498 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\HWANGT01
+2026-01-12 10:22:28,252 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 10:22:28,322 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17704836 || CaseName: Case 1
+2026-01-12 10:22:28,324 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\HWANGT01
+2026-01-12 10:55:12,727 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-12 12:20:51,192 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 12:20:51,263 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12690351 || CaseName: Case 1
+2026-01-12 12:20:51,264 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-12 12:23:47,847 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 12:23:47,916 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12690351 || CaseName: Case 1
+2026-01-12 12:23:47,917 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-12 12:25:18,776 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 12:25:18,844 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12690351 || CaseName: Case 1
+2026-01-12 12:25:18,845 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-12 12:37:14,096 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 12:37:14,165 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12690351 || CaseName: Case 1
+2026-01-12 12:37:14,167 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-12 13:58:58,669 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-12 13:58:58,737 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12690351 || CaseName: Case 1
+2026-01-12 13:58:58,739 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-14 13:32:33,438 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-14 13:32:33,506 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9737660 || CaseName: Case 1
+2026-01-14 13:32:33,508 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-01-14 13:37:48,423 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-14 13:37:48,490 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9737660 || CaseName: Case 1
+2026-01-14 13:37:48,492 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-01-14 13:42:26,996 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-15 10:55:57,066 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-15 10:55:57,152 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 5049070 || CaseName: Case 1
+2026-01-15 10:55:57,154 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\HWANGT01
+2026-01-15 10:56:07,715 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-15 10:56:07,782 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 5049070 || CaseName: Case 1
+2026-01-15 10:56:07,784 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\HWANGT01
+2026-01-15 11:26:00,163 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-15 13:27:37,090 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-15 13:27:37,162 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10306704 || CaseName: Case 1
+2026-01-15 13:27:37,164 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\HWANGT01
+2026-01-15 13:35:19,139 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-16 08:41:07,731 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-16 08:41:07,820 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13452450 || CaseName: Case 1
+2026-01-16 08:41:07,822 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-16 08:49:21,810 - ERROR - breast_sib - main_breast_sib.py - [FAILED] in breast_sib.main_breast_sib.  Email notification sent.  Exception: System.AggregateException: One or more errors occurred. ---> System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Treat is only supported for ROIs with at least one min, uniform and/or target function(s). The following ROIs are selected as Treat ROIs for beam '1 SIB' but does not contain at least one of the supported functions:
+PTV_Tangents
+In order to continue, add a min, uniform and/or target function or deselect the ROI(s) in the list of Treat ROIs.
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.SanityCheckMlcTreatBounds_(IOptimizationProblem optimizationProblem, PhotonBeam originalBeam, ITreatmentSetup treatmentSetup)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData_(IOptimizationProblem optimizationProblem, List`1 radiationSets, List`1 preTreatmentRadiationSets, List`1 preTreatedFractions, IDoseDistribution doseDistribution, IMachineDB machineDb, IComparativeTotalDose comparativeTotalDose, Boolean allowBeamsWithoutSegments, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData(IOptimizationProblem optimizationProblem, IMachineDB machineDb, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.createIMRT_UI_ServiceOptimization_(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.getIMRT_UI_ServiceOptimization(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.OptimizationService.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at RaySearch.Scripting.ScriptService.ScriptService.ExecuteScriptableAction_(IScriptableAction action)
+   at RaySearch.Scripting.ScriptService.ScriptService.InvokeAction_(DataEntity& returnData, DataEntity[] arguments, IScriptableAction action, String methodName)
+---> (Inner Exception #0) System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Treat is only supported for ROIs with at least one min, uniform and/or target function(s). The following ROIs are selected as Treat ROIs for beam '1 SIB' but does not contain at least one of the supported functions:
+PTV_Tangents
+In order to continue, add a min, uniform and/or target function or deselect the ROI(s) in the list of Treat ROIs.
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.SanityCheckMlcTreatBounds_(IOptimizationProblem optimizationProblem, PhotonBeam originalBeam, ITreatmentSetup treatmentSetup)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData_(IOptimizationProblem optimizationProblem, List`1 radiationSets, List`1 preTreatmentRadiationSets, List`1 preTreatedFractions, IDoseDistribution doseDistribution, IMachineDB machineDb, IComparativeTotalDose comparativeTotalDose, Boolean allowBeamsWithoutSegments, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData(IOptimizationProblem optimizationProblem, IMachineDB machineDb, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.createIMRT_UI_ServiceOptimization_(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.getIMRT_UI_ServiceOptimization(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.OptimizationService.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Treat is only supported for ROIs with at least one min, uniform and/or target function(s). The following ROIs are selected as Treat ROIs for beam '1 SIB' but does not contain at least one of the supported functions:
+PTV_Tangents
+In order to continue, add a min, uniform and/or target function or deselect the ROI(s) in the list of Treat ROIs.
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.SanityCheckMlcTreatBounds_(IOptimizationProblem optimizationProblem, PhotonBeam originalBeam, ITreatmentSetup treatmentSetup)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData_(IOptimizationProblem optimizationProblem, List`1 radiationSets, List`1 preTreatmentRadiationSets, List`1 preTreatedFractions, IDoseDistribution doseDistribution, IMachineDB machineDb, IComparativeTotalDose comparativeTotalDose, Boolean allowBeamsWithoutSegments, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData(IOptimizationProblem optimizationProblem, IMachineDB machineDb, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.createIMRT_UI_ServiceOptimization_(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.getIMRT_UI_ServiceOptimization(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.OptimizationService.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Treat is only supported for ROIs with at least one min, uniform and/or target function(s). The following ROIs are selected as Treat ROIs for beam '1 SIB' but does not contain at least one of the supported functions:
+PTV_Tangents
+In order to continue, add a min, uniform and/or target function or deselect the ROI(s) in the list of Treat ROIs.
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.SanityCheckMlcTreatBounds_(IOptimizationProblem optimizationProblem, PhotonBeam originalBeam, ITreatmentSetup treatmentSetup)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData_(IOptimizationProblem optimizationProblem, List`1 radiationSets, List`1 preTreatmentRadiationSets, List`1 preTreatedFractions, IDoseDistribution doseDistribution, IMachineDB machineDb, IComparativeTotalDose comparativeTotalDose, Boolean allowBeamsWithoutSegments, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData(IOptimizationProblem optimizationProblem, IMachineDB machineDb, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.createIMRT_UI_ServiceOptimization_(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.getIMRT_UI_ServiceOptimization(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.OptimizationService.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Treat is only supported for ROIs with at least one min, uniform and/or target function(s). The following ROIs are selected as Treat ROIs for beam '1 SIB' but does not contain at least one of the supported functions:
+PTV_Tangents
+In order to continue, add a min, uniform and/or target function or deselect the ROI(s) in the list of Treat ROIs.
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.SanityCheckMlcTreatBounds_(IOptimizationProblem optimizationProblem, PhotonBeam originalBeam, ITreatmentSetup treatmentSetup)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData_(IOptimizationProblem optimizationProblem, List`1 radiationSets, List`1 preTreatmentRadiationSets, List`1 preTreatedFractions, IDoseDistribution doseDistribution, IMachineDB machineDb, IComparativeTotalDose comparativeTotalDose, Boolean allowBeamsWithoutSegments, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData(IOptimizationProblem optimizationProblem, IMachineDB machineDb, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.createIMRT_UI_ServiceOptimization_(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.getIMRT_UI_ServiceOptimization(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.OptimizationService.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+---> (Inner Exception #0) RaySearch.CoreUtilities.SanityCheckException: Treat is only supported for ROIs with at least one min, uniform and/or target function(s). The following ROIs are selected as Treat ROIs for beam '1 SIB' but does not contain at least one of the supported functions:
+PTV_Tangents
+In order to continue, add a min, uniform and/or target function or deselect the ROI(s) in the list of Treat ROIs.
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.SanityCheckMlcTreatBounds_(IOptimizationProblem optimizationProblem, PhotonBeam originalBeam, ITreatmentSetup treatmentSetup)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData_(IOptimizationProblem optimizationProblem, List`1 radiationSets, List`1 preTreatmentRadiationSets, List`1 preTreatedFractions, IDoseDistribution doseDistribution, IMachineDB machineDb, IComparativeTotalDose comparativeTotalDose, Boolean allowBeamsWithoutSegments, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.TreatmentSetupDataFactory.CreateTreatmentSetupData(IOptimizationProblem optimizationProblem, IMachineDB machineDb, LeafSweepAttributesForArcOrDynamic leafSweepAttributes, AutomaticMcoNavigationAttributes automaticMcoNavigationAttributes)
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.createIMRT_UI_ServiceOptimization_(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.COServiceBuilder.getIMRT_UI_ServiceOptimization(COServiceBuilder* )
+   at RaySearch.CoreServices.CoreORBIT.OptimizationService.DoWork_()<---
+<---
+<---
+<---
+<---
+
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-01-16 13:23:53,682 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-16 13:23:53,771 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17498086 || CaseName: Case 1
+2026-01-16 13:23:53,773 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\HWANGT01
+2026-01-16 13:37:20,830 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-20 07:59:38,211 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 07:59:38,282 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9911000 || CaseName: Case 1
+2026-01-20 07:59:38,284 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-20 08:03:04,086 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 08:03:04,179 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9911000 || CaseName: Case 1
+2026-01-20 08:03:04,181 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-20 08:52:29,142 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 08:52:29,211 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9911000 || CaseName: Case 1
+2026-01-20 08:52:29,213 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-20 08:54:15,073 - ERROR - breast_sib - main_breast_sib.py - [FAILED] in breast_sib.main_breast_sib.  Email notification sent.  Exception: System.AggregateException: One or more errors occurred. ---> System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at RaySearch.Scripting.ScriptService.ScriptService.ExecuteScriptableAction_(IScriptableAction action)
+   at RaySearch.Scripting.ScriptService.ScriptService.InvokeAction_(DataEntity& returnData, DataEntity[] arguments, IScriptableAction action, String methodName)
+---> (Inner Exception #0) System.AggregateException: An error occured while execute action Optimization ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at RaySearch.Scripting.ScriptService.ActionSchedulerForScripting.<ExecuteAsync>d__4.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.<ExecuteAsync>d__7.MoveNext()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.CompositeOptimizationAction.DoWork_()
+   at RaySearch.CorePlatform.Framework.Action.DoWorkSequence_()
+   at RaySearch.CorePlatform.Framework.AsyncAction`2.RaySearch.CorePlatform.Framework.IAsyncAction.RunAsync()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at RaySearch.CorePlatform.Framework.ActionScheduler.RaySearch.CorePlatform.Framework.IChildActionScheduler.ExecuteChildAction(IAsyncAction asyncAction)
+   at RaySearch.CorePlatform.Framework.Action.ExecuteSubAction[T,U](AsyncAction`2 action)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.ExecuteOptimizationSubAction_()
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.RunOptimizationBaseAction`1.DoWork_()
+---> (Inner Exception #0) System.AggregateException: One or more errors occurred. ---> RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.
+   --- End of inner exception stack trace ---
+   at RaySearch.CorePlatform.Framework.ActionScheduler.Execute[U,T](CoreOrbitServiceRequest`2 serviceRequest)
+   at RaySearch.CorePlatform.Presentation.Actions.CoreORBIT.OptimizationServiceAction.DoWork_()
+---> (Inner Exception #0) RaySearch.CoreUtilities.SanityCheckException: Initial monitor units cannot be assigned for the requested target dose level.
+Please check background dose and/or requested target dose level.<---
+<---
+<---
+<---
+<---
+
+   at ScriptClient.CPythonScriptMethod.Invoke(String[] argNames, Object[] argValues)
+2026-01-20 09:08:18,080 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 09:08:18,168 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9911000 || CaseName: Case 1
+2026-01-20 09:08:18,171 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-20 09:23:51,226 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 09:23:51,294 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9911000 || CaseName: Case 1
+2026-01-20 09:23:51,296 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-20 09:59:47,853 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 09:59:47,920 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9911000 || CaseName: Case 1
+2026-01-20 09:59:47,922 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-20 11:37:51,657 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 11:37:51,747 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9911000 || CaseName: Case 1
+2026-01-20 11:37:51,749 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-20 12:56:28,515 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-20 12:56:28,583 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12492716 || CaseName: Case 1
+2026-01-20 12:56:28,585 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\SANTOJ14
+2026-01-20 13:02:30,041 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-26 09:55:37,855 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-26 09:55:37,923 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12394180 || CaseName: Case 1
+2026-01-26 09:55:37,925 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-26 10:07:04,639 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-26 10:41:46,893 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-26 10:41:46,961 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12356910 || CaseName: Case 1
+2026-01-26 10:41:46,964 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-26 10:48:35,226 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-26 11:02:21,021 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-26 11:02:21,110 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10363208 || CaseName: Case 1
+2026-01-26 11:02:21,112 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-26 11:02:44,198 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-26 11:02:44,285 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10363208 || CaseName: Case 1
+2026-01-26 11:02:44,288 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-01-27 08:45:44,745 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-27 08:45:44,813 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14380249 || CaseName: Case 1
+2026-01-27 08:45:44,815 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-27 08:56:56,846 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-27 10:28:15,580 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-27 10:28:15,648 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11645547 || CaseName: Case 1
+2026-01-27 10:28:15,650 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-27 10:36:50,040 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-27 11:08:21,374 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-27 11:08:21,465 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14380249 || CaseName: Case 1
+2026-01-27 11:08:21,469 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-27 11:15:40,029 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-29 06:57:57,081 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-29 06:57:57,148 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12355373 || CaseName: Case 1
+2026-01-29 06:57:57,150 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-29 07:07:48,431 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-29 07:09:54,584 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-29 07:09:54,650 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12355373 || CaseName: Case 1
+2026-01-29 07:09:54,652 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-29 07:19:48,789 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-01-29 07:23:02,714 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-01-29 07:23:02,781 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12355373 || CaseName: Case 1
+2026-01-29 07:23:02,783 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-01-29 07:31:39,578 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-02 06:06:23,294 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-02 06:06:23,403 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14746294 || CaseName: Case 1
+2026-02-02 06:06:23,405 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-02 06:13:32,195 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-03 06:52:26,183 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-03 06:52:26,271 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 0856084 || CaseName: Case 1
+2026-02-03 06:52:26,273 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-03 06:55:40,413 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-03 06:55:40,478 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 0856084 || CaseName: Case 1
+2026-02-03 06:55:40,480 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-03 06:58:00,423 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-03 06:58:00,489 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 0856084 || CaseName: Case 1
+2026-02-03 06:58:00,491 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-03 12:06:46,383 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-03 12:06:46,466 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 0856084 || CaseName: Case 1
+2026-02-03 12:06:46,470 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-03 12:14:10,514 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-03 13:22:42,985 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-03 13:22:43,071 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10132387 || CaseName: Case 1
+2026-02-03 13:22:43,074 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-03 13:29:42,873 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-05 10:25:56,742 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-05 10:25:56,808 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11188763 || CaseName: Case 1
+2026-02-05 10:25:56,809 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-05 10:26:36,300 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-05 10:26:36,366 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11188763 || CaseName: Case 1
+2026-02-05 10:26:36,368 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-05 10:34:27,326 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-09 13:19:52,323 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-09 13:19:52,388 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 1216273 || CaseName: Case 1
+2026-02-09 13:19:52,390 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-09 13:25:25,091 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-10 13:43:41,438 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-10 13:43:41,507 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10315031 || CaseName: Case 1
+2026-02-10 13:43:41,510 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-10 13:49:45,394 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-12 09:24:14,249 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-12 09:24:14,316 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9372508 || CaseName: Case 1
+2026-02-12 09:24:14,318 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-12 09:30:15,098 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-12 10:45:23,720 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-12 10:45:23,789 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10210393 || CaseName: Case 1
+2026-02-12 10:45:23,791 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-12 11:05:36,897 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-12 14:49:55,499 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-12 14:49:55,569 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12720327 || CaseName: Case 1
+2026-02-12 14:49:55,571 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-02-12 14:51:50,372 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-12 14:51:50,439 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12720327 || CaseName: Case 1
+2026-02-12 14:51:50,441 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-02-12 15:02:35,446 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-12 15:02:35,516 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12720327 || CaseName: Case 1
+2026-02-12 15:02:35,518 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-02-12 15:10:21,850 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-12 15:10:21,933 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12720327 || CaseName: Case 1
+2026-02-12 15:10:21,937 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-02-12 15:28:45,994 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-13 06:46:46,723 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-13 06:46:46,792 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15981485 || CaseName: Case 1
+2026-02-13 06:46:46,794 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-13 13:19:09,164 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-13 13:19:09,231 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15551346 || CaseName: Case 1
+2026-02-13 13:19:09,233 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-17 06:10:28,089 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 06:10:28,177 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15551346 || CaseName: Case 1
+2026-02-17 06:10:28,179 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-17 06:16:40,310 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-17 07:30:35,128 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 07:30:35,194 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10160172 || CaseName: Case 1
+2026-02-17 07:30:35,196 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-17 07:43:44,905 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-17 08:35:20,406 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 08:35:20,473 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15551346 || CaseName: Case 1
+2026-02-17 08:35:20,475 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-17 08:56:10,675 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-17 10:33:23,360 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 10:33:23,426 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9975514 || CaseName: Case 1
+2026-02-17 10:33:23,428 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-17 10:56:32,422 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-17 11:39:37,519 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 11:39:37,585 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9975514 || CaseName: Case 1
+2026-02-17 11:39:37,586 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-17 12:03:05,771 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-17 12:55:42,958 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 12:55:43,027 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15010822 || CaseName: Case 1
+2026-02-17 12:55:43,028 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-02-17 13:12:15,747 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 13:12:15,814 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15010822 || CaseName: Case 1
+2026-02-17 13:12:15,816 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-02-17 14:16:18,923 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-17 14:16:18,990 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 3132024 || CaseName: Case 1
+2026-02-17 14:16:18,992 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\ANDREN05
+2026-02-18 07:18:52,563 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-18 07:18:52,662 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15010822 || CaseName: Case 1
+2026-02-18 07:18:52,664 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-02-18 07:46:43,077 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-18 07:46:43,145 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15010822 || CaseName: Case 1
+2026-02-18 07:46:43,147 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-02-18 08:00:09,313 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-18 08:00:09,391 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15010822 || CaseName: Case 1
+2026-02-18 08:00:09,393 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-02-18 08:08:59,680 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-02-20 14:15:51,287 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-20 14:15:51,377 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15981485 || CaseName: Case 1
+2026-02-20 14:15:51,379 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-02-25 09:06:05,090 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-25 09:06:05,181 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 8906678 || CaseName: Case 1
+2026-02-25 09:06:05,183 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-02-25 09:07:55,847 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-25 09:07:55,914 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 8906678 || CaseName: Case 1
+2026-02-25 09:07:55,916 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-02-25 09:35:48,815 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-02-25 09:35:48,881 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 8906678 || CaseName: Case 1
+2026-02-25 09:35:48,883 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-03-03 08:18:29,298 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-03 08:18:29,366 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 1216497 || CaseName: Case 1
+2026-03-03 08:18:29,368 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-03 08:31:43,625 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-03 08:36:31,876 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-03 08:36:31,941 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 1216497 || CaseName: Case 1
+2026-03-03 08:36:31,943 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-03 08:47:12,915 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-03 09:20:12,728 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-03 09:20:12,794 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 1216497 || CaseName: Case 1
+2026-03-03 09:20:12,796 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-03 09:29:40,983 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-05 07:52:54,994 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-05 07:52:55,061 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13468565 || CaseName: Case 1
+2026-03-05 07:52:55,063 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-05 08:00:31,441 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-05 08:00:31,508 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13468565 || CaseName: Case 1
+2026-03-05 08:00:31,510 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-05 08:09:39,054 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-05 11:23:22,083 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-05 11:23:22,148 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12614122 || CaseName: Case 1
+2026-03-05 11:23:22,150 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-05 11:23:47,885 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-05 11:23:47,952 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12614122 || CaseName: Case 1
+2026-03-05 11:23:47,954 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-05 11:32:49,436 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-05 11:32:49,502 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12614122 || CaseName: Case 1
+2026-03-05 11:32:49,504 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-05 11:44:01,768 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-05 13:07:32,448 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-05 13:07:32,514 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12614122 || CaseName: Case 1
+2026-03-05 13:07:32,516 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-05 13:12:28,885 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-05 13:12:28,952 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12614122 || CaseName: Case 1
+2026-03-05 13:12:28,954 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-05 13:22:20,862 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-09 08:32:18,545 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-09 08:32:18,614 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 1310574 || CaseName: Case 1
+2026-03-09 08:32:18,615 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-09 13:43:31,354 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-09 13:43:31,420 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9786284 || CaseName: Case 1
+2026-03-09 13:43:31,422 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-09 13:53:11,173 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-10 10:02:25,662 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-10 10:02:25,730 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15465836 || CaseName: Case 1
+2026-03-10 10:02:25,732 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-10 10:16:39,067 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-12 13:02:16,251 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-12 13:02:16,319 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15002822 || CaseName: Case 1
+2026-03-12 13:02:16,321 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-12 13:15:36,280 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-13 10:04:59,016 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-13 10:04:59,087 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17781088 || CaseName: Case 1
+2026-03-13 10:04:59,089 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-13 10:17:40,604 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-13 11:09:48,488 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-13 11:09:48,580 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17781088 || CaseName: Case 1
+2026-03-13 11:09:48,581 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-13 11:19:29,487 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-13 11:25:52,606 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-13 11:25:52,672 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17781088 || CaseName: Case 1
+2026-03-13 11:25:52,674 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-13 11:34:25,183 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-13 11:36:23,241 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-13 11:36:23,307 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17781088 || CaseName: Case 1
+2026-03-13 11:36:23,309 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-13 11:48:25,999 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-13 11:52:55,603 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-13 11:52:55,669 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17781088 || CaseName: Case 1
+2026-03-13 11:52:55,671 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-13 12:02:49,962 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-16 07:07:00,278 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-16 07:07:00,347 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14070957 || CaseName: Case 1
+2026-03-16 07:07:00,349 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-16 07:15:33,467 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-16 11:19:38,536 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-16 11:19:38,603 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9834646 || CaseName: Case 1
+2026-03-16 11:19:38,605 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-16 11:30:35,963 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-16 13:04:57,592 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-16 13:04:57,660 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9834646 || CaseName: Case 1
+2026-03-16 13:04:57,662 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-16 13:10:40,297 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-17 10:48:46,125 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-17 10:48:46,198 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17598435 || CaseName: Case 1
+2026-03-17 10:48:46,201 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-17 10:54:37,613 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 08:32:53,596 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 08:32:53,662 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14479686 || CaseName: Case 1
+2026-03-19 08:32:53,664 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-19 08:40:01,827 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 10:50:04,516 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 10:50:04,589 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 10:50:04,591 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-19 10:55:03,338 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 10:55:52,385 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 10:55:52,451 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 10:55:52,453 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-19 10:56:03,066 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 10:56:03,133 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 10:56:03,135 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-19 11:02:02,926 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 11:11:44,842 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 11:11:44,906 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 11:11:44,908 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-19 11:18:35,708 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 11:21:39,567 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 11:21:39,635 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 11:21:39,637 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-19 11:28:14,901 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 11:37:23,816 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 11:37:23,883 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 11:37:23,885 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-19 11:43:13,801 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 12:10:18,905 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 12:10:18,993 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 12:10:18,995 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-03-19 12:17:07,170 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 13:08:38,883 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 13:08:38,949 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12742439 || CaseName: Case 1
+2026-03-19 13:08:38,951 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-19 13:19:56,598 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-19 13:39:08,026 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 13:39:08,091 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15397456 || CaseName: Case 1
+2026-03-19 13:39:08,093 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-19 13:42:22,815 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-19 13:42:22,881 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15397456 || CaseName: Case 1
+2026-03-19 13:42:22,883 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-19 13:48:39,959 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-23 09:05:21,083 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-23 09:05:21,151 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12740945 || CaseName: Case 1
+2026-03-23 09:05:21,153 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-23 09:32:58,191 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-24 08:09:30,863 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-24 08:09:30,932 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12750816 || CaseName: Case 1
+2026-03-24 08:09:30,933 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-24 08:19:31,825 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-24 08:21:42,301 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-24 08:21:42,372 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12750816 || CaseName: Case 1
+2026-03-24 08:21:42,374 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-24 08:26:59,383 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-24 09:13:15,175 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-24 09:13:15,243 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12750816 || CaseName: Case 1
+2026-03-24 09:13:15,245 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-24 09:17:58,233 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-24 12:57:18,973 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-24 12:57:19,052 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 16307692 || CaseName: Case 1
+2026-03-24 12:57:19,054 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-24 13:05:47,063 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-24 13:45:27,679 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-24 13:45:27,746 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9085851 || CaseName: Case 1
+2026-03-24 13:45:27,748 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-24 13:50:47,388 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-26 07:40:41,986 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-26 07:40:42,053 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 16307692 || CaseName: Case 1
+2026-03-26 07:40:42,055 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-26 07:46:55,812 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-26 13:23:53,386 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-26 13:23:53,456 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17745029 || CaseName: Case 1
+2026-03-26 13:23:53,459 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-26 13:38:28,044 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-27 09:33:05,148 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-27 09:33:05,217 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17838498 || CaseName: Case 1
+2026-03-27 09:33:05,219 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-30 07:32:34,568 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-30 07:32:34,639 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17745029 || CaseName: Case 1
+2026-03-30 07:32:34,641 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-30 07:40:48,497 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-03-31 08:41:55,519 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-03-31 08:41:55,585 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14916980 || CaseName: Case 1
+2026-03-31 08:41:55,587 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-03-31 08:55:15,146 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-02 07:06:29,636 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-02 07:06:29,708 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15873907 || CaseName: Case 1
+2026-04-02 07:06:29,710 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-02 07:13:58,518 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-02 09:19:41,663 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-02 09:19:41,728 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13294512 || CaseName: Case 1
+2026-04-02 09:19:41,730 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-02 09:25:01,327 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-02 09:25:01,394 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13294512 || CaseName: Case 1
+2026-04-02 09:25:01,396 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-02 09:25:42,367 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-02 09:25:42,434 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13294512 || CaseName: Case 1
+2026-04-02 09:25:42,436 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-02 09:37:44,200 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-02 13:23:37,325 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-02 13:23:37,391 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12411801 || CaseName: Case 1
+2026-04-02 13:23:37,396 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-02 13:30:26,513 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-02 13:32:51,235 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-02 13:32:51,320 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12411801 || CaseName: Case 1
+2026-04-02 13:32:51,323 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-02 13:37:38,755 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-06 07:22:55,708 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-06 07:22:55,777 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13788772 || CaseName: Case 1
+2026-04-06 07:22:55,779 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-06 07:43:01,188 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-07 13:25:04,715 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-07 13:25:04,790 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10069644 || CaseName: Case 1
+2026-04-07 13:25:04,792 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-07 13:33:22,945 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-07 13:38:36,814 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-07 13:38:36,883 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10069644 || CaseName: Case 1
+2026-04-07 13:38:36,886 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-07 13:48:29,732 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-07 13:48:29,814 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10069644 || CaseName: Case 1
+2026-04-07 13:48:29,816 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-07 13:56:43,496 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-09 13:12:01,311 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-09 13:12:01,378 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 16615763 || CaseName: Case 1
+2026-04-09 13:12:01,380 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-09 13:18:53,854 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-14 11:32:28,600 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-14 11:32:28,668 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10203598 || CaseName: Case 1
+2026-04-14 11:32:28,670 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-14 11:48:54,573 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-16 08:53:25,918 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-16 08:53:25,986 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9861809 || CaseName: Case 1
+2026-04-16 08:53:25,987 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-16 09:10:41,546 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-16 09:10:41,613 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9861809 || CaseName: Case 1
+2026-04-16 09:10:41,615 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-16 09:11:23,524 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-16 09:11:23,591 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9861809 || CaseName: Case 1
+2026-04-16 09:11:23,593 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-16 09:29:09,984 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-16 13:22:04,784 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-16 13:22:04,852 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15834381 || CaseName: Case 1
+2026-04-16 13:22:04,854 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-16 13:31:18,556 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-21 07:32:32,651 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-21 07:32:32,719 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12416706 || CaseName: Case 1
+2026-04-21 07:32:32,720 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-21 07:41:04,136 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-21 09:37:45,091 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-21 09:37:45,157 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9879703 || CaseName: Case 1
+2026-04-21 09:37:45,159 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-21 09:51:50,162 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-21 13:25:31,831 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-21 13:25:31,899 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9870519 || CaseName: Case 1
+2026-04-21 13:25:31,901 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-21 13:32:35,525 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-22 13:46:26,731 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-22 13:46:26,827 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9079939 || CaseName: Case 1
+2026-04-22 13:46:26,829 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-04-22 14:03:24,990 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-22 14:03:25,058 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9079939 || CaseName: Case 1
+2026-04-22 14:03:25,060 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-04-23 06:52:44,861 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-23 06:52:44,930 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11203466 || CaseName: Case 1
+2026-04-23 06:52:44,932 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-23 07:00:05,636 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-23 07:42:04,287 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-23 07:42:04,375 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9079939 || CaseName: Case 1
+2026-04-23 07:42:04,377 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-04-23 09:00:11,768 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-23 09:00:11,851 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17452994 || CaseName: Case 1
+2026-04-23 09:00:11,855 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-23 09:11:11,950 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-23 11:36:42,987 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-23 11:36:43,063 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17827963 || CaseName: Case 1
+2026-04-23 11:36:43,065 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-23 11:42:10,002 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-23 13:46:45,464 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-23 13:46:45,549 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11239566 || CaseName: Case 1
+2026-04-23 13:46:45,551 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-23 13:56:50,685 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-27 07:58:31,931 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-27 07:58:31,997 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9745643 || CaseName: Case 1
+2026-04-27 07:58:31,999 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-27 08:05:40,640 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-27 08:32:12,634 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-27 08:32:12,725 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11239566 || CaseName: Case 1
+2026-04-27 08:32:12,727 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-27 08:44:48,461 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-27 08:44:48,529 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11239566 || CaseName: Case 1
+2026-04-27 08:44:48,531 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-27 08:49:46,482 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-27 11:16:29,227 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-27 11:16:29,294 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 5132182 || CaseName: Case 1
+2026-04-27 11:16:29,297 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-27 11:20:46,752 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-28 11:21:14,420 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-28 11:21:14,488 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9155192 || CaseName: Case 1
+2026-04-28 11:21:14,490 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-28 11:27:58,104 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-28 13:14:13,673 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-28 13:14:13,741 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 14744469 || CaseName: Case 1
+2026-04-28 13:14:13,743 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-28 13:20:24,314 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-30 07:09:36,567 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-30 07:09:36,634 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12470911 || CaseName: Case 1
+2026-04-30 07:09:36,636 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-30 07:10:39,152 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-30 07:10:39,219 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12470911 || CaseName: Case 1
+2026-04-30 07:10:39,221 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-30 07:12:32,027 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-30 07:12:32,090 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12470911 || CaseName: Case 1
+2026-04-30 07:12:32,092 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-30 07:18:58,773 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-04-30 10:46:05,457 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-04-30 10:46:05,525 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13452450 || CaseName: Case 2
+2026-04-30 10:46:05,527 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-04-30 11:02:51,990 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-04 09:38:31,742 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-04 09:38:31,875 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17017061 || CaseName: Case 1
+2026-05-04 09:38:31,877 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-04 09:48:26,790 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-04 10:04:18,723 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-04 10:04:18,790 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17017061 || CaseName: Case 1
+2026-05-04 10:04:18,792 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-04 10:15:18,055 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-05 08:42:35,555 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-05 08:42:35,624 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9371600 || CaseName: Case 1
+2026-05-05 08:42:35,626 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-05 08:53:38,631 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-05 10:45:47,655 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-05 10:45:47,730 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9288067 || CaseName: Case 1
+2026-05-05 10:45:47,735 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-05 10:57:10,655 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-07 08:03:13,150 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-07 08:03:13,220 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12809012 || CaseName: Case 1
+2026-05-07 08:03:13,223 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-07 08:10:16,319 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-07 10:18:59,550 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-07 10:18:59,617 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11263540 || CaseName: Case 1
+2026-05-07 10:18:59,619 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-07 10:34:07,343 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-11 07:43:56,680 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-11 07:43:56,744 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13772869 || CaseName: Case 1
+2026-05-11 07:43:56,746 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-11 07:55:51,891 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-11 08:38:44,457 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-11 08:38:44,523 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13772869 || CaseName: Case 1
+2026-05-11 08:38:44,526 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-11 08:44:47,870 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-12 11:18:15,960 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-12 11:18:16,026 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9856771 || CaseName: Case 1
+2026-05-12 11:18:16,028 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-12 11:25:24,312 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-12 11:25:24,381 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9856771 || CaseName: Case 1
+2026-05-12 11:25:24,383 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-12 11:40:42,125 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-12 11:40:42,194 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9856771 || CaseName: Case 1
+2026-05-12 11:40:42,196 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-12 11:50:12,163 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-12 13:05:07,754 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-12 13:05:07,823 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9856771 || CaseName: Case 1
+2026-05-12 13:05:07,825 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-12 13:14:51,051 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-13 14:04:08,918 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-13 14:04:08,988 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9856771 || CaseName: Case 1
+2026-05-13 14:04:08,990 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-19 11:31:21,121 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-19 11:31:21,190 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10183376 || CaseName: Case 1
+2026-05-19 11:31:21,192 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-19 11:33:16,069 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-19 11:33:16,158 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10183376 || CaseName: Case 1
+2026-05-19 11:33:16,160 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-19 11:44:09,093 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-19 12:53:20,715 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-19 12:53:21,381 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10183376 || CaseName: Case 1
+2026-05-19 12:53:21,383 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-19 12:59:52,502 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-21 08:28:46,821 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-21 08:28:46,892 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15031127 || CaseName: Case 1
+2026-05-21 08:28:46,894 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-21 08:35:39,626 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-21 12:53:20,232 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-21 12:53:20,299 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9975907 || CaseName: Case 1
+2026-05-21 12:53:20,301 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-21 13:02:30,627 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-21 13:07:24,691 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-21 13:07:24,760 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9975907 || CaseName: Case 1
+2026-05-21 13:07:24,762 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-21 13:10:24,897 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-26 07:26:52,202 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-26 07:26:52,269 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17725093 || CaseName: Case 1
+2026-05-26 07:26:52,271 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-26 07:36:40,331 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-26 13:03:02,808 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-26 13:03:02,875 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17786687 || CaseName: Case 1
+2026-05-26 13:03:02,877 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-26 13:14:22,399 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-05-26 13:33:40,643 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-05-26 13:33:40,711 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17786687 || CaseName: Case 1
+2026-05-26 13:33:40,713 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-05-26 13:40:10,480 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-01 07:27:14,388 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-01 07:27:14,456 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13551784 || CaseName: Case 1
+2026-06-01 07:27:14,458 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-01 07:28:55,547 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-01 07:28:55,614 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13551784 || CaseName: Case 1
+2026-06-01 07:28:55,616 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-01 07:35:32,616 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-01 09:50:38,764 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-01 09:50:38,832 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13934399 || CaseName: Case 1
+2026-06-01 09:50:38,834 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-01 09:51:17,590 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-01 09:51:17,657 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13934399 || CaseName: Case 1
+2026-06-01 09:51:17,659 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-01 09:58:26,368 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-09 11:04:19,926 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-09 11:04:19,995 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17798717 || CaseName: Case 1
+2026-06-09 11:04:19,998 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-09 11:08:24,234 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-09 11:13:04,720 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-09 11:13:04,791 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17798717 || CaseName: Case 1
+2026-06-09 11:13:04,793 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-09 11:18:28,078 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-11 09:38:43,850 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-11 09:38:43,919 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9904185 || CaseName: Case 1
+2026-06-11 09:38:43,921 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-11 09:52:43,824 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-15 07:36:06,806 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-15 07:36:06,873 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10379664 || CaseName: Case 1
+2026-06-15 07:36:06,875 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-15 07:37:45,141 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-15 07:37:45,207 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10379664 || CaseName: Case 1
+2026-06-15 07:37:45,209 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-15 07:44:38,336 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-15 11:40:16,882 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-15 11:40:16,950 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 16733856 || CaseName: Case 1
+2026-06-15 11:40:16,952 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-15 11:47:26,795 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-16 09:36:28,851 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-16 09:36:28,922 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 17722945 || CaseName: Case 1
+2026-06-16 09:36:28,924 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\DIBARD04
+2026-06-16 13:01:44,761 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-16 13:01:44,829 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 13306560 || CaseName: Case 1
+2026-06-16 13:01:44,831 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-16 13:08:29,274 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-18 12:29:52,946 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-18 12:29:53,013 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 11730222 || CaseName: Case 1
+2026-06-18 12:29:53,015 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-18 12:39:28,008 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-22 07:24:43,364 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-22 07:24:43,434 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 18005734 || CaseName: Case 1
+2026-06-22 07:24:43,437 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-22 07:48:56,593 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-22 07:48:56,661 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 18005734 || CaseName: Case 1
+2026-06-22 07:48:56,663 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-22 08:57:58,213 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-22 08:57:58,282 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 15618414 || CaseName: Case 1
+2026-06-22 08:57:58,284 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-22 09:05:44,617 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-23 07:41:09,310 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-23 07:41:09,377 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9800582 || CaseName: Case 1
+2026-06-23 07:41:09,379 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-23 07:49:02,690 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-23 09:29:58,872 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-23 09:29:58,975 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10247295 || CaseName: Case 1
+2026-06-23 09:29:58,982 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-06-23 09:33:04,513 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-23 09:33:04,594 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10247295 || CaseName: Case 1
+2026-06-23 09:33:04,596 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-06-23 09:56:30,849 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-23 10:02:45,005 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-23 10:02:45,072 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10247295 || CaseName: Case 1
+2026-06-23 10:02:45,074 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-06-23 10:04:00,739 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-23 10:04:00,808 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10247295 || CaseName: Case 1
+2026-06-23 10:04:00,810 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-06-23 13:40:50,279 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-23 13:40:50,345 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 8908955 || CaseName: Case 1
+2026-06-23 13:40:50,347 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-23 13:44:27,756 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-23 13:44:27,823 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 8908955 || CaseName: Case 1
+2026-06-23 13:44:27,825 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-23 13:50:52,881 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-24 09:56:18,394 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-24 09:56:18,482 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10247295 || CaseName: Case 1
+2026-06-24 09:56:18,484 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-06-24 09:58:20,395 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-24 09:58:20,462 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 10247295 || CaseName: Case 1
+2026-06-24 09:58:20,464 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CHANG05
+2026-06-24 15:14:02,097 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-24 15:14:02,164 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12524790 || CaseName: Case 1
+2026-06-24 15:14:02,166 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-06-25 09:27:53,460 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-25 09:27:53,528 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 9876849 || CaseName: Case 1
+2026-06-25 09:27:53,530 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-25 09:34:34,950 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-25 10:54:42,138 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-25 10:54:42,236 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 12524790 || CaseName: Case 1
+2026-06-25 10:54:42,238 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\CLANCO01
+2026-06-25 11:04:53,086 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-25 12:58:03,078 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-25 12:58:03,162 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 8905070 || CaseName: Case 1
+2026-06-25 12:58:03,167 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-25 13:05:18,384 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Finished Breast_SIB =====
+
+
+2026-06-25 13:44:30,149 - INFO - breast_sib - Breast_SIB.py - 
+
+===== Running Breast_SIB =====
+2026-06-25 13:44:30,239 - INFO - breast_sib - Breast_SIB.py - Patient_ID: 16056295 || CaseName: Case 3
+2026-06-25 13:44:30,242 - INFO - breast_sib - Breast_SIB.py - Current Windows User: NYUMC\WESTJ05
+2026-06-25 13:45:08,556 - ERROR - breast_sib - main_breast_sib.py - [FAILED] in breast_sib.main_breast_sib.  Email notification sent.  Exception: 'NoneType' object is not subscriptable

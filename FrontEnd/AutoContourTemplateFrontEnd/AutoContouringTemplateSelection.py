@@ -9,16 +9,16 @@ import sys
 sys.path.append("\\\Client\F$\SHARING\Radiation Oncology Physics\RaystationScriptingPROD")
 sys.path.append("F:\SHARING\Radiation Oncology Physics\RaystationScriptingPROD")
 
-
-from Planning.Structures.Classes.AutoSegmentationTemplate import TamAbdomenTemplate, TamHeadAndNeckTemplate
-from FrontEnd.AutoContourTemplateFrontEnd.availableTemplates import availableTemplates
+from Planning.Structures.Templates.StructureTemplate import StructureTemplate
+from Planning.Structures.Classes.AutoSegmentationTemplate import AutoSegmentationTemplate,TamAbdomenTemplate, TamHeadAndNeckTemplate
+from FrontEnd.AutoContourTemplateFrontEnd.availableTemplates import availableTemplates, breastTailorTrial
 
 # Tkinter Frontend
 class AutoContouringTemplateSelection:
-    def __init__(self, root):
+    def __init__(self, root, title = "Select AutoContouring Template", templates = availableTemplates):
         self.root = root
-        self.root.title("Select Template To Run")
-
+        self.root.title(title)
+        self.templates = templates
         # Set modern window appearance
         self.root.configure(bg="#34495e")  # Dark slate gray background
 
@@ -39,7 +39,7 @@ class AutoContouringTemplateSelection:
         # Dropdown menu with padding
         self.selectedOption = tk.StringVar()
         self.dropdown = ttk.Combobox(root, textvariable=self.selectedOption)
-        self.dropdown['values'] = list(availableTemplates.keys())
+        self.dropdown['values'] = list(self.templates.keys())
         self.dropdown.pack(padx=20, pady=10)
 
         # GO button with padding
@@ -52,12 +52,46 @@ class AutoContouringTemplateSelection:
 
     def launchClass(self):
         selectedKey = self.selectedOption.get()
-        if selectedKey in availableTemplates:
-            availableTemplates[selectedKey]()  # Instantiate the class
-            self.goButton.config(state="disabled")  # Disable the button after click
-            self.root.quit()  # Terminate the application after instantiation
+        if not selectedKey:
+            messagebox.showwarning("Selection Error", "Please select a template from the dropdown.")
+            return
+        
+        # Check if the selected template triggers the laterality window with new templates
+        if selectedKey == "Tailor Protocols":  # Replace with the actual key of the special template
+            self.spawnLateralityWindow(newTemplates=breastTailorTrial)
+        elif selectedKey in self.templates:
+            # Instead of calling the template directly, check its type
+            template = self.templates[selectedKey]
+            print('memmmmi')
+            # Here, you handle the template based on what kind of object it is
+            if issubclass(template, AutoSegmentationTemplate):
+                # If it's a class, instantiate it
+                print(f"Instantiating template class: {selectedKey}")
+                template()  # Instantiate the class
+            elif issubclass(template, StructureTemplate):
+                # Handle other cases if the template is not a class (e.g., instance of a class or other objects)
+                print(f"Handling template object: {selectedKey}")
+                # Add logic to handle non-callable template objects here
+                template.make_empty_rois()
+            self.goButton.config(state="disabled")  # Disable the GO button after click
+            self.root.quit()  # Close the application
         else:
             print("Please select a valid option.")
+            
+    def spawnLateralityWindow(self, newTemplates):
+        """Spawns a new window with laterality options for a specific template and a new set of templates."""
+        # Destroy the original window before spawning the new one
+        self.root.destroy()  
+        
+        # Create a new Tk root window instead of Toplevel
+        newWindow = tk.Tk()
+        
+        # Spawn the laterality window with the new templates
+        lateralityWindow = AutoContouringTemplateWithLaterality(newWindow, title="Select New Template with Laterality", templates=newTemplates)
+        
+        # Start the new laterality window event loop
+        newWindow.mainloop()
+
 
     def centerWindow(self):
         """Centers the window on the screen."""
@@ -72,6 +106,51 @@ class AutoContouringTemplateSelection:
 
         # Set the geometry of the window with a specified width
         self.root.geometry(f"{windowWidth}x{windowHeight}+{positionRight}+{positionDown}")
+        
+        
+class AutoContouringTemplateWithLaterality(AutoContouringTemplateSelection):
+    def __init__(self, root, title="Select AutoContouring Template", templates=availableTemplates):
+        # Initialize the parent class
+        super().__init__(root, title, templates)
+
+        # Add Left/Right radiobuttons for laterality
+        self.lateralityVar = tk.StringVar(value="None")  # Variable to store selected laterality
+
+        self.radioFrame = ttk.Frame(self.root)
+        self.radioFrame.pack(pady=10)
+
+        self.leftRadio = ttk.Radiobutton(self.radioFrame, text="Left", variable=self.lateralityVar, value="Left", command=self.checkLateralitySelection)
+        self.leftRadio.pack(side="left", padx=5)
+
+        self.rightRadio = ttk.Radiobutton(self.radioFrame, text="Right", variable=self.lateralityVar, value="Right", command=self.checkLateralitySelection)
+        self.rightRadio.pack(side="right", padx=5)
+
+        # Initially disable the GO button until Left or Right is selected
+        self.goButton.config(state="disabled")
+
+    def checkLateralitySelection(self):
+        """Maps 'Left' to 'L' and 'Right' to 'R', and enables the GO button."""
+        laterality = self.lateralityVar.get()
+    
+        if laterality == "Left":
+            self.lateralityVar.set("L")  # Set as "L" for Left
+        elif laterality == "Right":
+            self.lateralityVar.set("R")  # Set as "R" for Right
+    
+        if laterality != "None":
+            self.goButton.config(state="normal")  # Enable GO button when Left/Right is selected
+        else:
+            self.goButton.config(state="disabled")  # Disab
+            
+    def launchClass(self):
+        super().launchClass()
+        pm = get_current("Case")
+        pm = pm.PatientModel
+        for ii in pm.RegionsOfInterest:
+            if ii.Name[-1] == '_':
+                ii.Name += self.lateralityVar.get()
+
+        self.root.destroy()
 
 # Running the Tkinter application
 if __name__ == "__main__":

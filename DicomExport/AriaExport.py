@@ -45,6 +45,5 @@ class AriaExport(DicomExportBase):
 
 
 
-        
 if __name__ == "__main__":
     tmp = AriaExport(fPathBase)

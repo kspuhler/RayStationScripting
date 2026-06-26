@@ -1,0 +1,8 @@
+1. Only list CTs that have commissioned CTs
+2. Allow CT-to-CT fusions
+3. Automatically align moving image to orientation of fixed image (Support HFS, FFS, HFP, FFP)
+4. Default to FoR.  Otherwise, regular registration
+
+Prostate CT-MRI Fusion - Washington, Kevin
+
+H&N CT-CT Fusion - Vicari, Frank	

@@ -1,0 +1,54 @@
+plan_templates:
+  Haas ProstLN 180x25:
+    display_name: "Haas Prostate and Nodes 180x25"
+    
+    prescription:
+      class: Prescription
+      kwargs:
+            totalDose: 4500
+            target: "PTV4500"
+            doseVol: 95
+            autoScale: true
+    
+    machines:
+    
+      TrueBeam:
+        contouringsetup:
+          class: ContouringSetup 
+          kwargs:
+              templateName: "PLAN TEMPLATE: JH ProstLN 4500"
+              templateStructures: ["PTV4500", "Bladder", "Rectum", "Lt Femoral", "Rt Femoral", "PTVn", "PTVp", "Bowel", "Bladder - GTVp", "Spacer", "zXRectum", "zXBladder", "zXBowel", "zZRectum", "zZBladder", "zZBowel", "Shell1", "zNTO", "zRectum50"]
+              machine: truebeam
+                
+        plansetup:
+          class: TrueBeamPlanSetup
+          kwargs:
+              stereotactic: false
+              
+        optimizer:
+          class: TrueBeamOptimizer
+          kwargs:
+            optimizationTemplate: "SCRIPT TEMPLATE: JH PROSTATE LN TB"
+            clinicalGoalTemplate: "JH IMRT Pelvis PRF"
+            automaticFineTune: false
+
+      Radixact:
+        contouringsetup:
+          class: ContouringSetup 
+          kwargs:
+              templateName: "PLAN TEMPLATE: JH ProstLN 4500"
+              templateStructures: ["PTV4500", "Bladder", "Rectum", "Lt Femoral", "Rt Femoral", "PTVn", "PTVp", "Bowel", "Bladder - GTVp", "Spacer", "zXRectum", "zXBladder", "zXBowel", "zZRectum", "zZBladder", "zZBowel", "Shell1", "zNTO", "zRectum50"]
+              machine: radixact
+                
+        plansetup:
+          class: RadixactPlanSetup
+          kwargs:
+              stereotactic: false
+              
+        optimizer:
+          class: RadixactOptimizer
+          kwargs:
+            optimizationTemplate: "SCRIPT TEMPLATE: JH PROSTATE LN TB"
+            clinicalGoalTemplate: "JH IMRT Pelvis PRF"
+            automaticFineTune: false
+
